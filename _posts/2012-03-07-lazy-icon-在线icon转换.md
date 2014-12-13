@@ -59,5 +59,5 @@ tags:
 转载请注明：[于哲的博客][2] &raquo; [Lazy Icon—在线Icon转换][3]
 
  [1]: http://lazynight.me/wp-content/uploads/2012/03/icon.gif
- [2]: http://localhost/wordpress
- [3]: http://localhost/wordpress/1534.html
+ [2]: http://lazynight.me
+ [3]: http://lazynight.me/1534.html

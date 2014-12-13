@@ -61,5 +61,5 @@ lazynight.me 2.22就要到期了，赶在之前搬运到VPS上，
 转载请注明：[于哲的博客][2] &raquo; [初试VPS &#8211; LinodeVPS][3]
 
  [1]: http://lazynight.me/wp-content/uploads/2013/02/linode.jpg
- [2]: http://localhost/wordpress
- [3]: http://localhost/wordpress/2800.html
+ [2]: http://lazynight.me
+ [3]: http://lazynight.me/2800.html

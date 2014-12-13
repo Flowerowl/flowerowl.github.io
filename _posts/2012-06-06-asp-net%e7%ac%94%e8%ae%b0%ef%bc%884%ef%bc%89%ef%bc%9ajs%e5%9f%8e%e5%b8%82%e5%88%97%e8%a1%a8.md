@@ -71,5 +71,5 @@ categories:
 转载请注明：[于哲的博客][2] &raquo; [Asp.Net笔记（4）：JS城市列表][3]
 
  [1]: http://lazynight.me/wp-content/uploads/2012/06/4.gif
- [2]: http://localhost/wordpress
- [3]: http://localhost/wordpress/2254.html
+ [2]: http://lazynight.me
+ [3]: http://lazynight.me/2254.html

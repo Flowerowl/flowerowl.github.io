@@ -147,5 +147,5 @@ Console.WriteLine(MyStringBuilder);
 
 转载请注明：[于哲的博客][1] &raquo; [C#中string和stringBuilder的区别][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/1406.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/1406.html

@@ -96,5 +96,5 @@ categories:
  [1]: http://lazynight.me/wp-content/uploads/2012/08/Cocoa-1.jpg
  [2]: http://lazynight.me/wp-content/uploads/2012/08/Cocoa2.jpg
  [3]: http://lazynight.me/wp-content/uploads/2012/08/Cocoa4.jpg
- [4]: http://localhost/wordpress
- [5]: http://localhost/wordpress/2403.html
+ [4]: http://lazynight.me
+ [5]: http://lazynight.me/2403.html

@@ -71,5 +71,5 @@ Pjax可以解决这个问题，那就用到Html5的API了，前几天也写了�
 
 转载请注明：[于哲的博客][1] &raquo; [Lazy-Simple v2 整站AJAX][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/991.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/991.html

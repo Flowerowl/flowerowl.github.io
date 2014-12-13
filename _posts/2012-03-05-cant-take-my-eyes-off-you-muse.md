@@ -62,5 +62,5 @@ tags:
 
 转载请注明：[于哲的博客][1] &raquo; [Can&#8217;t Take My Eyes Off You-Muse][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/1413.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/1413.html

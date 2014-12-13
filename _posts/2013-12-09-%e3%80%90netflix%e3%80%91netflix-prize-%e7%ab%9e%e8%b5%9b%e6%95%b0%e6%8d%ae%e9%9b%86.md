@@ -530,5 +530,5 @@ ed843ae92adbc70db64edbf825024514 10782692 probe.txt
 
 转载请注明：[于哲的博客][1] &raquo; [【Netflix】Netflix Prize 竞赛数据集][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/3294.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/3294.html

@@ -38,5 +38,5 @@ tags:
   </p>
   
   <p>
-    转载请注明：<a href="http://localhost/wordpress">于哲的博客</a> &raquo; <a href="http://localhost/wordpress/3415.html">技术分享（5）：推荐系统简单实现</a>
+    转载请注明：<a href="http://lazynight.me">于哲的博客</a> &raquo; <a href="http://lazynight.me/3415.html">技术分享（5）：推荐系统简单实现</a>
   </p>

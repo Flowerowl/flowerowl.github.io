@@ -24,5 +24,5 @@ tags:
 
 转载请注明：[于哲的博客][1] &raquo; [My My Mind-Apex Manor 一剂麻醉][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/893.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/893.html

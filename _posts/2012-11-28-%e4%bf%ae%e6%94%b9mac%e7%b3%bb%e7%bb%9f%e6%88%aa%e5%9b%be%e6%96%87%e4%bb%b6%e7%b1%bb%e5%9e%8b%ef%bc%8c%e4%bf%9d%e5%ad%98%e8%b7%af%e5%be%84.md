@@ -40,5 +40,5 @@ tags:
 
 转载请注明：[于哲的博客][1] &raquo; [修改Mac系统截图文件类型，保存路径][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/2720.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/2720.html

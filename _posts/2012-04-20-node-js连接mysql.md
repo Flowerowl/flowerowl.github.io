@@ -114,5 +114,5 @@ OK，自己折腾吧，祝玩得愉快。
 
 转载请注明：[于哲的博客][1] &raquo; [Node.js连接MYSQL][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/1963.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/1963.html

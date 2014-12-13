@@ -68,5 +68,5 @@ http://www.crummy.com/software/BeautifulSoup/bs4/doc/#
 
 转载请注明：[于哲的博客][1] &raquo; [Python Html解析器：Beautiful Soup][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/2749.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/2749.html

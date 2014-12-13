@@ -112,9 +112,9 @@ if( isset($_POST['tougao_form']) && $_POST['tougao_form'] == 'send')
     }
 }
 get_header(); ?&gt;
-&lt;link rel="stylesheet" href="http://localhost/wordpress/kindeditor/themes/simple/simple.css" /&gt;
-&lt;script charset="utf-8" src="http://localhost/wordpress/kindeditor/kindeditor.js"&gt;&lt;/script&gt;
-&lt;script charset="utf-8" src="http://localhost/wordpress/kindeditor/lang/zh_CN.js"&gt;&lt;/script&gt;
+&lt;link rel="stylesheet" href="http://lazynight.me/kindeditor/themes/simple/simple.css" /&gt;
+&lt;script charset="utf-8" src="http://lazynight.me/kindeditor/kindeditor.js"&gt;&lt;/script&gt;
+&lt;script charset="utf-8" src="http://lazynight.me/kindeditor/lang/zh_CN.js"&gt;&lt;/script&gt;
 &lt;script&gt;
         var editor;
         KindEditor.ready(function(K) {
@@ -186,5 +186,5 @@ get_header(); ?&gt;
 转载请注明：[于哲的博客][2] &raquo; [WordPress 添加投稿页面][3]
 
  [1]: http://lazynight.me/wp-content/uploads/2012/11/tougao.jpg
- [2]: http://localhost/wordpress
- [3]: http://localhost/wordpress/2706.html
+ [2]: http://lazynight.me
+ [3]: http://lazynight.me/2706.html

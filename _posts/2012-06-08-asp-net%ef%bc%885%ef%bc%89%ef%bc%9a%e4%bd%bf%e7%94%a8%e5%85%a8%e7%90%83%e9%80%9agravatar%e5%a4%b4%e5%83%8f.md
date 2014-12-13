@@ -96,5 +96,5 @@ namespace Gavatar
 转载请注明：[于哲的博客][2] &raquo; [Asp.Net（5）：使用全球通Gravatar头像][3]
 
  [1]: http://lazynight.me/wp-content/uploads/2012/06/Gravatar.gif
- [2]: http://localhost/wordpress
- [3]: http://localhost/wordpress/2267.html
+ [2]: http://lazynight.me
+ [3]: http://lazynight.me/2267.html

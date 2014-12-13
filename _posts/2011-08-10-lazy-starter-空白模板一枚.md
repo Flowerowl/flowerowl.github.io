@@ -35,5 +35,5 @@ tags:
 
 转载请注明：[于哲的博客][1] &raquo; [Lazy-starter 空白模板一枚][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/44.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/44.html

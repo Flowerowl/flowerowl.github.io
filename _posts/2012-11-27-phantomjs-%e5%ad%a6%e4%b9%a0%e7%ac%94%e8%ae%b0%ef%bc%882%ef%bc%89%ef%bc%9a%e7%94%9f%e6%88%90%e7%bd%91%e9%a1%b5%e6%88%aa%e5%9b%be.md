@@ -222,5 +222,5 @@ namespace WebScreen
 
  [1]: http://lazynight.me/wp-content/uploads/2012/11/logo.gif
  [2]: http://lazynight.me/wp-content/uploads/2012/11/cphantom.jpg
- [3]: http://localhost/wordpress
- [4]: http://localhost/wordpress/2714.html
+ [3]: http://lazynight.me
+ [4]: http://lazynight.me/2714.html

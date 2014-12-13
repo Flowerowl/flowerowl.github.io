@@ -138,5 +138,5 @@ Express目录介绍：
         </p>
         
         <p>
-          转载请注明：<a href="http://localhost/wordpress">于哲的博客</a> &raquo; <a href="http://localhost/wordpress/1969.html">Node.js之Express框架</a>
+          转载请注明：<a href="http://lazynight.me">于哲的博客</a> &raquo; <a href="http://lazynight.me/1969.html">Node.js之Express框架</a>
         </p>

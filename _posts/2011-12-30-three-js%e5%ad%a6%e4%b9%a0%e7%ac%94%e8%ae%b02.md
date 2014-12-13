@@ -39,7 +39,7 @@ tags:
   
   <p>
     );<br /> <span style="color: #696969;">107</span> <span style="color: #696969;">//摄像机对准场景，否则只能左右平移观察&#8230;</span><br /> <span style="color: #696969;">108</span> <span style="color: #c0c0c0;">mesh</span><span style="color: #c0c0c0;">.</span><span style="color: #c0c0c0;">rotation</span><span style="color: #c0c0c0;">.</span><span style="color: #c0c0c0;">y</span> <span style="color: #c0c0c0;">-=</span> <span style="color: #c0c0c0;">0.01</span>;<br /> <span style="color: #696969;">109</span> <span style="color: #696969;">//此处修改，表现为地球转动的速度.</span><br /> <span style="color: #f810b0;">110</span> <span style="color: #c0c0c0;">renderer</span><span style="color: #c0c0c0;">.</span><span style="color: #c0c0c0;">render</span>( <span style="color: #c0c0c0;">scene</span><span style="color: #c0c0c0;">,</span> <span style="color: #c0c0c0;">camera</span> );<br /> <span style="color: #696969;">111</span> <span style="color: #c0c0c0;">}</span><br /> <span style="color: #696969;">112</span> <span style="color: #c0c0c0;"><</span><span style="color: #c0c0c0;">/script></span><br /> <span style="color: #696969;">113</span> <span style="color: #c0c0c0;"><</span><span style="color: #c0c0c0;">/body></span><br /> <span style="color: #696969;">114</span> <span style="color: #c0c0c0;"><</span><span style="color: #c0c0c0;">/html></span></div> <p>
-      转载请注明：<a href="http://localhost/wordpress">于哲的博客</a> &raquo; <a href="http://localhost/wordpress/1098.html">THREE.JS学习笔记(2)</a>
+      转载请注明：<a href="http://lazynight.me">于哲的博客</a> &raquo; <a href="http://lazynight.me/1098.html">THREE.JS学习笔记(2)</a>
     </p>
 
  [1]: http://lazynight.me/wp-content/uploads/2011/12/15.jpg

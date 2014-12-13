@@ -50,5 +50,5 @@ filter()则是筛选div的class为classname的元素。
 
 转载请注明：[于哲的博客][1] &raquo; [jQuery 抄袭笔记(21) :filter()，not()][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/632.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/632.html

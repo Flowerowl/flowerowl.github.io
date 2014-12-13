@@ -34,5 +34,5 @@ mt_rand(min,max)
     </p>
     
     <p>
-      转载请注明：<a href="http://localhost/wordpress">于哲的博客</a> &raquo; <a href="http://localhost/wordpress/954.html">WordPress 随机名言</a>
+      转载请注明：<a href="http://lazynight.me">于哲的博客</a> &raquo; <a href="http://lazynight.me/954.html">WordPress 随机名言</a>
     </p>

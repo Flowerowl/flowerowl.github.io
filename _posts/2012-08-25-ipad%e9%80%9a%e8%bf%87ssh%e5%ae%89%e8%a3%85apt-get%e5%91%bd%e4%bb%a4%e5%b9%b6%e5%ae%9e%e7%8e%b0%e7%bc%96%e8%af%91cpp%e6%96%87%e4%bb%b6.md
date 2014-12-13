@@ -64,5 +64,5 @@ ldid -S hello
 转载请注明：[于哲的博客][2] &raquo; [ipad 进行ssh，安装apt-get命令并实现编译cpp文件][3]
 
  [1]: http://lazynight.me/wp-content/uploads/2012/08/ssh.jpg
- [2]: http://localhost/wordpress
- [3]: http://localhost/wordpress/2442.html
+ [2]: http://lazynight.me
+ [3]: http://lazynight.me/2442.html

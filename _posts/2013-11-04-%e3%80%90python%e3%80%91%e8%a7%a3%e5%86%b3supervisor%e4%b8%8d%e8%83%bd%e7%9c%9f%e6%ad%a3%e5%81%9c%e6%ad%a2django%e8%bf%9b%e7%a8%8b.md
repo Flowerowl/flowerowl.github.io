@@ -235,5 +235,5 @@ redirect_stderr=true **stopasgroup=true**
 
  [1]: http://lazynight.me/wp-content/uploads/2013/11/AA12D220-03B5-4713-8491-1B15133250EF.jpg
  [2]: http://lazynight.me/wp-content/uploads/2013/11/32B0F33F-5E19-461B-9429-8931A3EC9E3A.jpg
- [3]: http://localhost/wordpress
- [4]: http://localhost/wordpress/3115.html
+ [3]: http://lazynight.me
+ [4]: http://lazynight.me/3115.html

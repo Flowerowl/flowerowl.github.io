@@ -213,5 +213,5 @@ namespace Client
 
  [1]: http://lazynight.me/wp-content/uploads/2012/06/servi.gif
  [2]: http://lazynight.me/wp-content/uploads/2012/06/ser2.gif
- [3]: http://localhost/wordpress
- [4]: http://localhost/wordpress/2327.html
+ [3]: http://lazynight.me
+ [4]: http://lazynight.me/2327.html

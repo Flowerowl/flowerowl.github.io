@@ -38,5 +38,5 @@ tags:
 转载请注明：[于哲的博客][2] &raquo; [Cutting Me Up-Blue Foundation][3]
 
  [1]: http://lazynight.me/wp-content/uploads/2011/11/a0.jpg
- [2]: http://localhost/wordpress
- [3]: http://localhost/wordpress/987.html
+ [2]: http://lazynight.me
+ [3]: http://lazynight.me/987.html

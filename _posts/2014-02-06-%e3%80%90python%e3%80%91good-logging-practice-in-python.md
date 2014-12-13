@@ -636,11 +636,11 @@ tags:
   </h3>
   
   <p>
-    I’m glad that Python logging library is nicely designed, and the best part is that it is a standard library, you don’t have to choose. It is flexible, you can write your own handlers and filters. There are also third-party handlers such as <a href="http://zeromq.org">ZeroMQ</a> logging handler provided by <a href="http://zeromq.github.io/pyzmq/">pyzmq</a>, it allows you to send logging messages through a zmq socket. If you don’t know how to use the logging system correctly, this article might be helpful. With good logging practice, you can find issues in your system easier. It’s a nice investment, don’t you buy it? <img src='http://localhost/wordpress/wp-content/themes/d8/img/smilies/icon_biggrin.gif' alt=':D' class='wp-smiley' />
+    I’m glad that Python logging library is nicely designed, and the best part is that it is a standard library, you don’t have to choose. It is flexible, you can write your own handlers and filters. There are also third-party handlers such as <a href="http://zeromq.org">ZeroMQ</a> logging handler provided by <a href="http://zeromq.github.io/pyzmq/">pyzmq</a>, it allows you to send logging messages through a zmq socket. If you don’t know how to use the logging system correctly, this article might be helpful. With good logging practice, you can find issues in your system easier. It’s a nice investment, don’t you buy it? <img src='http://lazynight.me/wp-content/themes/d8/img/smilies/icon_biggrin.gif' alt=':D' class='wp-smiley' />
   </p>
 </div>
 
 转载请注明：[于哲的博客][1] &raquo; [【Python】Good logging practice in Python][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/3372.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/3372.html

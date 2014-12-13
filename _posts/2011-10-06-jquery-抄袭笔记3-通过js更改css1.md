@@ -29,5 +29,5 @@ Html+JS+CSS:
 
 转载请注明：[于哲的博客][1] &raquo; [jQuery 抄袭笔记(3) : 通过JS更改CSS(1)][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/373.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/373.html

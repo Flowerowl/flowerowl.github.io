@@ -71,5 +71,5 @@ And all the things that you do
 
 转载请注明：[于哲的博客][1] &raquo; [Yellow &#8211; Coldplay][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/1948.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/1948.html

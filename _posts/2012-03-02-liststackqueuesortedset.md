@@ -26,5 +26,5 @@ categories:
 
 转载请注明：[于哲的博客][1] &raquo; [List <T>,Stack <T>,Queue <T>,SortedSet <T>][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/1346.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/1346.html

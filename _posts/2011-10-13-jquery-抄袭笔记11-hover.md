@@ -36,5 +36,5 @@ hover(over,out)一个模仿悬停事件（鼠标移动到一个对象上面及�
 
 转载请注明：[于哲的博客][1] &raquo; [jQuery 抄袭笔记(11) : Hover()][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/489.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/489.html

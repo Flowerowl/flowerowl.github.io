@@ -258,5 +258,5 @@ namespace Lazy_Setter_Trigger
 
 转载请注明：[于哲的博客][1] &raquo; [WPF Study notes(5):Binding][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/1826.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/1826.html

@@ -40,5 +40,5 @@ Properties.Settings.Default.Save();//使用Save方法保存更改
 
 转载请注明：[于哲的博客][1] &raquo; [C# 操作配置文件Properties.Settings][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/2934.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/2934.html

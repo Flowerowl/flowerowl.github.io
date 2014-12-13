@@ -44,5 +44,5 @@ API地址：<span style="color: #ff0000;"><a href="http://api.liqwei.com/" targe
 转载请注明：[于哲的博客][2] &raquo; [iOS学习笔记（2）：MiniDictionary][3]
 
  [1]: http://lazynight.me/wp-content/uploads/2012/08/news_20128991615.jpg
- [2]: http://localhost/wordpress
- [3]: http://localhost/wordpress/2356.html
+ [2]: http://lazynight.me
+ [3]: http://lazynight.me/2356.html

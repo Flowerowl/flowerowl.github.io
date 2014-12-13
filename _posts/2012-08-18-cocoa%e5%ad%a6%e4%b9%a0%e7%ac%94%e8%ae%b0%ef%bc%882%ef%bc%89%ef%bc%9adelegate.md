@@ -103,5 +103,5 @@ speechSynth将委托（delegate）给自己，即AppController。
 
  [1]: http://lazynight.me/wp-content/uploads/2012/08/Cocoa-delegate.jpg
  [2]: http://lazynight.me/wp-content/uploads/2012/08/delegaet.jpg
- [3]: http://localhost/wordpress
- [4]: http://localhost/wordpress/2415.html
+ [3]: http://lazynight.me
+ [4]: http://lazynight.me/2415.html

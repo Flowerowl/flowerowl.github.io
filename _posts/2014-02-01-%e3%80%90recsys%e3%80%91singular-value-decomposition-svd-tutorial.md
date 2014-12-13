@@ -2421,5 +2421,5 @@ tags:
 
 转载请注明：[于哲的博客][1] &raquo; [【RecSys】Singular Value Decomposition (SVD) Tutorial][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/3355.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/3355.html

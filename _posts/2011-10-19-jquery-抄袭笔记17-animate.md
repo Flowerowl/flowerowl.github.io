@@ -39,5 +39,5 @@ animate() 方法执行 CSS 属性集的自定义动画。
 
 转载请注明：[于哲的博客][1] &raquo; [jQuery 抄袭笔记(17) :Animate()][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/564.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/564.html

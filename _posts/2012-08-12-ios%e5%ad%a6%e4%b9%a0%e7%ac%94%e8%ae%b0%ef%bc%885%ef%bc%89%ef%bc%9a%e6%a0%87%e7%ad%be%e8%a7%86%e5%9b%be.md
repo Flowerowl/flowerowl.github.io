@@ -119,5 +119,5 @@ tags:
 
  [1]: http://lazynight.me/wp-content/uploads/2012/08/new-project.jpg
  [2]: http://lazynight.me/wp-content/uploads/2012/08/viewtap.jpg
- [3]: http://localhost/wordpress
- [4]: http://localhost/wordpress/2369.html
+ [3]: http://lazynight.me
+ [4]: http://lazynight.me/2369.html

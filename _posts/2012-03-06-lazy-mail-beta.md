@@ -49,5 +49,5 @@ tags:
  [2]: http://lazynight.me/wp-content/uploads/2012/03/xx.gif
  [3]: http://lazynight.me/wp-content/uploads/2012/03/zz.gif
  [4]: http://lazynight.me/wp-content/uploads/2012/03/cc.gif
- [5]: http://localhost/wordpress
- [6]: http://localhost/wordpress/1524.html
+ [5]: http://lazynight.me
+ [6]: http://lazynight.me/1524.html

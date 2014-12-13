@@ -34,5 +34,5 @@ tags:
 
 转载请注明：[于哲的博客][1] &raquo; [一首简单温暖的歌 Gotta Have You—The Weepies][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/237.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/237.html

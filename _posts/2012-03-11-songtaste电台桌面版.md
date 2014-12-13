@@ -37,5 +37,5 @@ tags:
 
  [1]: http://lazynight.me/wp-content/uploads/2012/03/songtaste.gif
  [2]: http://lazynight.me/wp-content/uploads/2012/03/songtastelrc.gif
- [3]: http://localhost/wordpress
- [4]: http://localhost/wordpress/1577.html
+ [3]: http://lazynight.me
+ [4]: http://lazynight.me/1577.html

@@ -33,5 +33,5 @@ categories:
 
 转载请注明：[于哲的博客][1] &raquo; [php中数组array_merge和运算符加号(+)的区别][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/1349.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/1349.html

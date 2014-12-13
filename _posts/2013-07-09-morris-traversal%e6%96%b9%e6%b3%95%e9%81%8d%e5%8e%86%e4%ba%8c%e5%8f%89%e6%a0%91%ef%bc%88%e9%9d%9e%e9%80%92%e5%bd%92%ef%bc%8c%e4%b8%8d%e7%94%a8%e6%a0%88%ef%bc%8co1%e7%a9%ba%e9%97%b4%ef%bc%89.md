@@ -128,5 +128,5 @@ b) 如果前驱节点的右孩子为当前节点，将它的右孩子重新设�
 转载请注明：[于哲的博客][2] &raquo; [Morris Traversal方法遍历二叉树（非递归，不用栈，O(1)空间）][3]
 
  [1]: http://lazynight.me/wp-content/uploads/2013/07/14214057-7cc645706e7741e3b5ed62b320000354.jpg
- [2]: http://localhost/wordpress
- [3]: http://localhost/wordpress/2932.html
+ [2]: http://lazynight.me
+ [3]: http://lazynight.me/2932.html

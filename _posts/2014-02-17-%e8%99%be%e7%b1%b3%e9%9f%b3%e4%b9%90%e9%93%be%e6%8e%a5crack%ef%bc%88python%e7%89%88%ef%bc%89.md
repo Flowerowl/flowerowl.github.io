@@ -90,5 +90,5 @@ tags:
 
 转载请注明：[于哲的博客][1] &raquo; [虾米音乐链接crack（Python版）][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/3391.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/3391.html

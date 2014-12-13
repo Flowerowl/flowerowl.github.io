@@ -59,5 +59,5 @@ admin.site.register(Book)</pre>
 
 转载请注明：[于哲的博客][1] &raquo; [Django 上传图片错误之&#8221;suspicious operation&#8221;][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/2534.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/2534.html

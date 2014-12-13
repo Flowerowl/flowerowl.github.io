@@ -70,5 +70,5 @@ PS：
  [5]: http://lazynight.me/wp-content/uploads/2012/06/41.gif
  [6]: http://lazynight.me/wp-content/uploads/2012/06/6.gif
  [7]: http://lazynight.me/wp-content/uploads/2012/06/7.gif
- [8]: http://localhost/wordpress
- [9]: http://localhost/wordpress/2280.html
+ [8]: http://lazynight.me
+ [9]: http://lazynight.me/2280.html

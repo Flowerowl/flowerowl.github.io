@@ -131,5 +131,5 @@ It is the end?
 
 转载请注明：[于哲的博客][1] &raquo; [It is the End-Moby Dick 最后的怀想][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/832.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/832.html

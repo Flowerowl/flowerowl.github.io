@@ -28,5 +28,5 @@ categories:
 转载请注明：[于哲的博客][2] &raquo; [WP主题:Lazy-text][3]
 
  [1]: http://lazynight.me/wp-content/uploads/2012/05/Lazy-text.gif
- [2]: http://localhost/wordpress
- [3]: http://localhost/wordpress/2147.html
+ [2]: http://lazynight.me
+ [3]: http://lazynight.me/2147.html

@@ -197,5 +197,5 @@ Github:
  [5]: https://github.com/twitter/bootstrap/watchers
  [6]: https://github.com/twitter/bootstrap/network/members
  [7]: http://lazynight.me/wp-content/uploads/2012/11/bootstrap.gif
- [8]: http://localhost/wordpress
- [9]: http://localhost/wordpress/2728.html
+ [8]: http://lazynight.me
+ [9]: http://lazynight.me/2728.html

@@ -27,5 +27,5 @@ categories:
 
  [1]: http://lazynight.me/wp-content/uploads/2012/09/djangoblog.gif
  [2]: http://lazynight.me/wp-content/uploads/2012/09/back.gif
- [3]: http://localhost/wordpress
- [4]: http://localhost/wordpress/2504.html
+ [3]: http://lazynight.me
+ [4]: http://lazynight.me/2504.html

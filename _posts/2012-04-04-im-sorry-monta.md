@@ -62,5 +62,5 @@ I&#8217;m sorry, you got me now
 
 转载请注明：[于哲的博客][1] &raquo; [I&#8217;m Sorry-Monta][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/1821.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/1821.html

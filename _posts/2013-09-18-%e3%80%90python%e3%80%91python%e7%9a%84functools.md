@@ -212,5 +212,5 @@ Docstring</pre>
 
  [1]: http://lazynight.me/wp-content/uploads/2013/09/functools.gif
  [2]: http://lazynight.me/wp-content/uploads/2013/09/reduce.gif
- [3]: http://localhost/wordpress
- [4]: http://localhost/wordpress/3017.html
+ [3]: http://lazynight.me
+ [4]: http://lazynight.me/3017.html

@@ -38,5 +38,5 @@ callback 参数是在 hide 或 show 函数完成之后被执行的函数名称�
 
 转载请注明：[于哲的博客][1] &raquo; [jQuery 抄袭笔记(6) : Hide特效][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/420.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/420.html

@@ -273,5 +273,5 @@ PS:用鸟语写不是为了装13，只是为了提高鸟语水平，以便以后
 
 转载请注明：[于哲的博客][1] &raquo; [WPF Study notes(2):Setter and Trigger in Style][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/1771.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/1771.html

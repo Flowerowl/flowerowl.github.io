@@ -40,5 +40,5 @@ tags:
 转载请注明：[于哲的博客][2] &raquo; [WeifenLuo.WinFormsUI.Docking.dll之保存界面布局（C#）][3]
 
  [1]: http://lazynight.me/wp-content/uploads/2012/02/123123123.jpg
- [2]: http://localhost/wordpress
- [3]: http://localhost/wordpress/1193.html
+ [2]: http://lazynight.me
+ [3]: http://lazynight.me/1193.html

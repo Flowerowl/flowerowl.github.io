@@ -75,5 +75,5 @@ http://stackoverflow.com/questions/5345348/what-is-the-best-way-to-install-pil-o
 
 转载请注明：[于哲的博客][1] &raquo; [Mac下Python安装PIL总结][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/2760.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/2760.html

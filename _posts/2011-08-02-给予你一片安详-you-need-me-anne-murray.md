@@ -58,5 +58,5 @@ You needed me, you needed me
 
 转载请注明：[于哲的博客][1] &raquo; [给予你一片安详 You need me-Anne Murray][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/23.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/23.html

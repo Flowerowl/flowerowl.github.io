@@ -1686,5 +1686,5 @@ raw times: 0.138 0.136 0.137 0.137 0.14
 
 转载请注明：[于哲的博客][1] &raquo; [【Python】The Performance Impact of Using dict() Instead of {} in CPython 2.7][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/2995.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/2995.html

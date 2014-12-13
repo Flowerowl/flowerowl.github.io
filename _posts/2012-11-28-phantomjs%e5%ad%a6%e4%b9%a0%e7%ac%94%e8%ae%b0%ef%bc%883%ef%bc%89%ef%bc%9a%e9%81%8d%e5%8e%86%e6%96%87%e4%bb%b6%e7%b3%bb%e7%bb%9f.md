@@ -52,5 +52,5 @@ phantom.exit();</pre>
 
 转载请注明：[于哲的博客][1] &raquo; [PhantomJS学习笔记（3）：遍历文件系统][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/2723.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/2723.html

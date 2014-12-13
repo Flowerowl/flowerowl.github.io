@@ -77,5 +77,5 @@ abc.sh.x 和 abc.sh.x.c
 
 转载请注明：[于哲的博客][1] &raquo; [使用shc加密shell][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/2726.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/2726.html

@@ -86,5 +86,5 @@ if (system.args.length &lt; 3) {
 转载请注明：[于哲的博客][2] &raquo; [PhantomJS 学习笔记（1）：利用googlemap获取路径导航][3]
 
  [1]: http://lazynight.me/wp-content/uploads/2012/11/phantomjs.jpg
- [2]: http://localhost/wordpress
- [3]: http://localhost/wordpress/2712.html
+ [2]: http://lazynight.me
+ [3]: http://lazynight.me/2712.html

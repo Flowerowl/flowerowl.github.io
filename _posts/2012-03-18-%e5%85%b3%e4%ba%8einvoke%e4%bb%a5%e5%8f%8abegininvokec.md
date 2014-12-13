@@ -116,5 +116,5 @@ tags:
 </p>
 
 <p>
-  转载请注明：<a href="http://localhost/wordpress">于哲的博客</a> &raquo; <a href="http://localhost/wordpress/1647.html">关于Control的Invoke以及BeginInvoke(C#)</a>
+  转载请注明：<a href="http://lazynight.me">于哲的博客</a> &raquo; <a href="http://lazynight.me/1647.html">关于Control的Invoke以及BeginInvoke(C#)</a>
 </p>

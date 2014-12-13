@@ -38,5 +38,5 @@ tags:
 转载请注明：[于哲的博客][2] &raquo; [果实落地的午后-Color Filter][3]
 
  [1]: http://lazynight.me/wp-content/uploads/2011/11/Color+Filter.jpg
- [2]: http://localhost/wordpress
- [3]: http://localhost/wordpress/977.html
+ [2]: http://lazynight.me
+ [3]: http://lazynight.me/977.html

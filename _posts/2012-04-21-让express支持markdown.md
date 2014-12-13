@@ -133,5 +133,5 @@ Fonts, sizes, color schemes, and even the HTML stylesheets are 100% customizable
 
 转载请注明：[于哲的博客][1] &raquo; [让Express支持Markdown][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/1977.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/1977.html

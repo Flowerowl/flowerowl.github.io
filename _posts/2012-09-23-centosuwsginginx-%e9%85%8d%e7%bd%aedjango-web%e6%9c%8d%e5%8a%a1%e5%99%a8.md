@@ -228,5 +228,5 @@ include uwsgi_params;
  [1]: http://lazynight.me/wp-content/uploads/2012/09/uwsgi.jpg
  [2]: http://lazynight.me/wp-content/uploads/2012/09/ok.gif
  [3]: http://lazynight.me/wp-content/uploads/2012/09/demo.gif
- [4]: http://localhost/wordpress
- [5]: http://localhost/wordpress/2512.html
+ [4]: http://lazynight.me
+ [5]: http://lazynight.me/2512.html

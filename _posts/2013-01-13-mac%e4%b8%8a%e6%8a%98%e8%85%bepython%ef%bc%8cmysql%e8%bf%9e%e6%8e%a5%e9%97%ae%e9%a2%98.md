@@ -98,5 +98,5 @@ http://wiki.salisburyenterprises.com/doku.php/nates%3amac%3amysql%3amysql
 
 转载请注明：[于哲的博客][1] &raquo; [Mac os平台下折腾Python，Mysql连接问题][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/2789.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/2789.html

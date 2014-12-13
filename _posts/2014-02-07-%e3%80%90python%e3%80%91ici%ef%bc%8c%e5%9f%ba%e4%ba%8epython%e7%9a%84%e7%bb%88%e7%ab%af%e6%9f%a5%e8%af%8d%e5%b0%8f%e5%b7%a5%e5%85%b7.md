@@ -46,5 +46,5 @@ github：<https://github.com/Flowerowl/ici>
 
 转载请注明：[于哲的博客][1] &raquo; [【Python】ici，基于python的终端查词小工具][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/3378.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/3378.html

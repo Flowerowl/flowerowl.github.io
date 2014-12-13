@@ -54,5 +54,5 @@ lazynight
 
 转载请注明：[于哲的博客][1] &raquo; [LinodeVPS 基本配置][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/2802.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/2802.html

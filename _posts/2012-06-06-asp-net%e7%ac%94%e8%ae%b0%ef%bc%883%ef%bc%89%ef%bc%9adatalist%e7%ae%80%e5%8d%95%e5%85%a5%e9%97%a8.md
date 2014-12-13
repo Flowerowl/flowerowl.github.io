@@ -130,5 +130,5 @@ public partial class _Default : System.Web.UI.Page
 转载请注明：[于哲的博客][2] &raquo; [Asp.Net笔记（3）：Datalist简单入门][3]
 
  [1]: http://lazynight.me/wp-content/uploads/2012/06/3.gif
- [2]: http://localhost/wordpress
- [3]: http://localhost/wordpress/2250.html
+ [2]: http://lazynight.me
+ [3]: http://lazynight.me/2250.html

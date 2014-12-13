@@ -30,7 +30,7 @@ def speak(self):
 SomeClass.speak = speak</pre>
 
 <p style="font-family: sans, sans-serif, verdana, arial, helvetica;">
-  In this example, if SomeClass<a class="new visualNoPrint" title="create this page" href="https://web.archive.org/web/20120730014107/http://wiki.zope.org/zope2/MonkeyPatch/createform?page=SomeClass">?</a> did not already have a speak() method, it does now <img src='http://localhost/wordpress/wp-content/themes/d8/img/smilies/icon_smile.gif' alt=':-)' class='wp-smiley' /> If it had a speak() method before, the new code has replaced the old method definition.
+  In this example, if SomeClass<a class="new visualNoPrint" title="create this page" href="https://web.archive.org/web/20120730014107/http://wiki.zope.org/zope2/MonkeyPatch/createform?page=SomeClass">?</a> did not already have a speak() method, it does now <img src='http://lazynight.me/wp-content/themes/d8/img/smilies/icon_smile.gif' alt=':-)' class='wp-smiley' /> If it had a speak() method before, the new code has replaced the old method definition.
 </p>
 
 <h2 style="margin-top: 1.5em; font-size: 21px; font-family: sans, sans-serif, verdana, arial, helvetica;">
@@ -66,7 +66,7 @@ SomeClass.speak = speak</pre>
 </ol>
 
 <p style="font-family: sans, sans-serif, verdana, arial, helvetica;">
-  So, just because python allows us to be very dynamic, it&#8217;s not always a good idea <img src='http://localhost/wordpress/wp-content/themes/d8/img/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />
+  So, just because python allows us to be very dynamic, it&#8217;s not always a good idea <img src='http://lazynight.me/wp-content/themes/d8/img/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />
 </p>
 
 <h2 style="margin-top: 1.5em; font-size: 21px; font-family: sans, sans-serif, verdana, arial, helvetica;">
@@ -79,5 +79,5 @@ SomeClass.speak = speak</pre>
 
 <p style="font-family: sans, sans-serif, verdana, arial, helvetica;">
   <p>
-    转载请注明：<a href="http://localhost/wordpress">于哲的博客</a> &raquo; <a href="http://localhost/wordpress/3383.html">【Python】Monkey Patch</a>
+    转载请注明：<a href="http://lazynight.me">于哲的博客</a> &raquo; <a href="http://lazynight.me/3383.html">【Python】Monkey Patch</a>
   </p>

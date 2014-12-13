@@ -77,5 +77,5 @@ Installed /z/mysql.data.dll into the gac (/Library/Frameworks/Mono.framework/Ver
 转载请注明：[于哲的博客][2] &raquo; [Mac OS 下Asp.net连接Mysql][3]
 
  [1]: http://lazynight.me/wp-content/uploads/2012/11/5ABC0B38-C93B-47A1-9784-0AA34A5E52E7.jpg
- [2]: http://localhost/wordpress
- [3]: http://localhost/wordpress/2612.html
+ [2]: http://lazynight.me
+ [3]: http://lazynight.me/2612.html

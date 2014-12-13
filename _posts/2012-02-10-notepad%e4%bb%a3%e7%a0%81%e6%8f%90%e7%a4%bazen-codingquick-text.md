@@ -72,5 +72,5 @@ Zen Coding ，写html的利器啊，给你看个效果图就知道多牛x：
  [1]: http://lazynight.me/wp-content/uploads/2012/02/notepad.jpg
  [2]: http://lazynight.me/wp-content/uploads/2012/02/notepad2.jpg
  [3]: http://lazynight.me/wp-content/uploads/2012/02/zen-coding.gif
- [4]: http://localhost/wordpress
- [5]: http://localhost/wordpress/1224.html
+ [4]: http://lazynight.me
+ [5]: http://lazynight.me/1224.html

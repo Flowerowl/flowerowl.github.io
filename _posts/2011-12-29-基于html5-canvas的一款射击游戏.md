@@ -45,5 +45,5 @@ IE9 速度奇快&#8230;我也不知道为啥这么快，没声音，香蕉数量
 转载请注明：[于哲的博客][2] &raquo; [基于Html5 Canvas的一款射击游戏][3]
 
  [1]: http://lazynight.me/wp-content/uploads/2011/12/13.jpg
- [2]: http://localhost/wordpress
- [3]: http://localhost/wordpress/1081.html
+ [2]: http://lazynight.me
+ [3]: http://lazynight.me/1081.html

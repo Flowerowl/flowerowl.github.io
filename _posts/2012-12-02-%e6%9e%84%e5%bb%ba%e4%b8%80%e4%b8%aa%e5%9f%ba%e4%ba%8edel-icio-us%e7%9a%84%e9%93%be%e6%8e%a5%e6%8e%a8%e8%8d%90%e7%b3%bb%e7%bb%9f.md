@@ -120,5 +120,5 @@ u&#8217;nafosyxog&#8217;
 转载请注明：[于哲的博客][2] &raquo; [构建一个基于del.icio.us的链接推荐系统][3]
 
  [1]: delicious.com
- [2]: http://localhost/wordpress
- [3]: http://localhost/wordpress/2740.html
+ [2]: http://lazynight.me
+ [3]: http://lazynight.me/2740.html

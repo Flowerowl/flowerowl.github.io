@@ -102,5 +102,5 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 转载请注明：[于哲的博客][1] &raquo; [【Python】使用VirtualEnvWrapper隔离python项目的库依赖][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/3194.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/3194.html

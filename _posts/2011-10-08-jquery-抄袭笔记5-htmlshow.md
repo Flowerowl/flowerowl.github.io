@@ -38,5 +38,5 @@ jquery代码：$(&#8220;div&#8221;).html(&#8220;<p>Nice to meet you</p>&#8221;);
 
 转载请注明：[于哲的博客][1] &raquo; [jQuery 抄袭笔记(5) : Html(),Show()][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/405.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/405.html

@@ -49,5 +49,5 @@ tags:
 
 转载请注明：[于哲的博客][1] &raquo; [If You Don&#8217;t Want Me——Perry Blake][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/1607.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/1607.html

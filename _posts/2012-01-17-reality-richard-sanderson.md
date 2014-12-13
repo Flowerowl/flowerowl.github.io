@@ -94,5 +94,5 @@ Perhaps that&#8217;s my reality
 转载请注明：[于哲的博客][2] &raquo; [Reality &#8211; Richard Sanderson][3]
 
  [1]: http://lazynight.me/wp-content/uploads/2012/01/3.jpg
- [2]: http://localhost/wordpress
- [3]: http://localhost/wordpress/1132.html
+ [2]: http://lazynight.me
+ [3]: http://lazynight.me/1132.html

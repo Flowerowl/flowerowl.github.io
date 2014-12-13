@@ -30,5 +30,5 @@ Win8 上的QQ2011貌似不能用了，有个2012版的，不过安装的时候�
 
  [1]: http://lazynight.me/wp-content/uploads/2012/03/20120302123724.gif
  [2]: http://lazynight.me/wp-content/uploads/2012/03/11.png
- [3]: http://localhost/wordpress
- [4]: http://localhost/wordpress/1339.html
+ [3]: http://lazynight.me
+ [4]: http://lazynight.me/1339.html

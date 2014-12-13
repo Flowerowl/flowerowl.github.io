@@ -118,5 +118,5 @@ public partial class index : System.Web.UI.Page
 转载请注明：[于哲的博客][2] &raquo; [Asp.Net笔记（1）：生成验证码][3]
 
  [1]: http://lazynight.me/wp-content/uploads/2012/06/valiade.gif
- [2]: http://localhost/wordpress
- [3]: http://localhost/wordpress/2201.html
+ [2]: http://lazynight.me
+ [3]: http://lazynight.me/2201.html

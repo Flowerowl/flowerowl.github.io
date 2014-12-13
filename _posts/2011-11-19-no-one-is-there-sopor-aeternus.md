@@ -33,5 +33,5 @@ tags:
 
 转载请注明：[于哲的博客][1] &raquo; [No One Is There-Sopor Aeternus][2]
 
- [1]: http://localhost/wordpress
- [2]: http://localhost/wordpress/922.html
+ [1]: http://lazynight.me
+ [2]: http://lazynight.me/922.html

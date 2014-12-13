@@ -37,5 +37,5 @@ tags:
 
  [1]: http://lazynight.me/wp-content/uploads/2012/08/navi1.jpg
  [2]: http://lazynight.me/wp-content/uploads/2012/08/navi2.jpg
- [3]: http://localhost/wordpress
- [4]: http://localhost/wordpress/2383.html
+ [3]: http://lazynight.me
+ [4]: http://lazynight.me/2383.html
