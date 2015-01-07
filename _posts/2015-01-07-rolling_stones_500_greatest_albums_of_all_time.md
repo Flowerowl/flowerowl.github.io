@@ -2,7 +2,7 @@
 title: Rolling Stone's 500 Greatest Albums of All Time
 author: Flowerowl
 layout: post
-permalink: /3417.html
+permalink: /4000.html
 views:
   - 667
 categories:
@@ -11,7 +11,7 @@ tags:
   - Rock
 ---
 
-001 - 100 
+
 001. Sgt. Pepper‘s Lonely Hearts Club Band, The Beatles
 002. Pet Sounds, The Beach Boys
 003. Revolver, The Beatles
@@ -22,7 +22,6 @@ tags:
 008. London Calling, The Clash
 009. Blonde on Blonde, Bob Dylan
 010. The Beatles (The White Album), The Beatles
-
 011. The Sun Sessions, Elvis Presley
 012. Kind of Blue, Miles Davis
 013. Velvet Underground and Nico, The Velvet Underground
@@ -113,7 +112,7 @@ tags:
 098. This Year‘s Model, Elvis Costello
 099. There‘s a Riot Goin‘ On, Sly and the Family Stone
 100. In the Wee Small Hours, Frank Sinatra
-101 - 200 
+
 101. Fresh Cream, Cream
 102. Giant Steps, John Coltrane
 103. Sweet Baby James, James Taylor
@@ -214,7 +213,7 @@ tags:
 198. The Best of, Little Walter
 199. Highway to Hell, AC/DC
 200. The Downward Spiral, Nine Inch Nails
-201 - 300 
+
 201. Parsley, Sage, Rosemary and Thyme, Simon and Garfunkel
 202. Bad, Michael Jackson
 203. Wheels of Fire, Cream
@@ -314,7 +313,7 @@ tags:
 298. Master of Reality, Black Sabbath
 299. Coat of Many Colors, Dolly Parton
 300. Fear of a Black Planet, Public Enemy
-301 - 400 
+
 301. John Wesley Harding, Bob Dylan
 302. The Marshall Mathers LP, Eminem
 303. Grace, Jeff Buckley
@@ -414,7 +413,7 @@ tags:
 398. Anthology, The Temptations
 399. Californication, Red Hot Chili Peppers
 400. Illmatic, Nas
-401 - 500 
+
 401. (Pronounced Leh-Nerd Skin-Nerd), Lynyrd Skynyrd
 402. Dr. John‘s Gumbo, Dr. John
 403. Radio City, Big Star
@@ -452,7 +451,7 @@ tags:
 435. To Bring You My Love, PJ Harvey
 436. Here Come the Warm Jets, Brian Eno
 437. All Things Must Pass, George Harrison
-438. #1 Record, Big Star
+438. 1 Record, Big Star
 439. In Utero, Nirvana
 440. Sea Change, Beck
 441. Tragic Kingdom, No Doubt
