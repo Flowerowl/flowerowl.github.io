@@ -71,11 +71,11 @@ tags:
     </h1>
     
     <p>
-      <strong>greenlet</strong> 包是 <strong>Stackless</strong> 的副产品，其将微线程称为 “tasklet” 。tasklet运行在伪并发中，使用channel进行同步数据交换。
+      <strong>greenlet</strong> 包是 <strong>Stackless</strong> 的副产品，其将微线程称为 "tasklet" 。tasklet运行在伪并发中，使用channel进行同步数据交换。
     </p>
     
     <p>
-      一个”greenlet”，是一个更加原始的微线程的概念，但是没有调度，或者叫做协程。这在你需要控制你的代码时很有用。你可以自己构造微线程的 调度器；也可以使用”greenlet”实现高级的控制流。例如可以重新创建构造器；不同于Python的构造器，我们的构造器可以嵌套的调用函数，而被 嵌套的函数也可以 yield 一个值。(另外，你并不需要一个”yield”关键字，参考例子)。
+      一个"greenlet"，是一个更加原始的微线程的概念，但是没有调度，或者叫做协程。这在你需要控制你的代码时很有用。你可以自己构造微线程的 调度器；也可以使用"greenlet"实现高级的控制流。例如可以重新创建构造器；不同于Python的构造器，我们的构造器可以嵌套的调用函数，而被 嵌套的函数也可以 yield 一个值。(另外，你并不需要一个"yield"关键字，参考例子)。
     </p>
     
     <p>
@@ -156,7 +156,7 @@ gui.mainloop()</pre>
     </h2>
     
     <p>
-      一个 “greenlet” 是一个很小的独立微线程。可以把它想像成一个堆栈帧，栈底是初始调用，而栈顶是当前greenlet的暂停位置。你使用greenlet创建一堆这样的堆 栈，然后在他们之间跳转执行。跳转不是绝对的：一个greenlet必须选择跳转到选择好的另一个greenlet，这会让前一个挂起，而后一个恢复。两 个greenlet之间的跳转称为 <strong>切换(switch)</strong> 。
+      一个 "greenlet" 是一个很小的独立微线程。可以把它想像成一个堆栈帧，栈底是初始调用，而栈顶是当前greenlet的暂停位置。你使用greenlet创建一堆这样的堆 栈，然后在他们之间跳转执行。跳转不是绝对的：一个greenlet必须选择跳转到选择好的另一个greenlet，这会让前一个挂起，而后一个恢复。两 个greenlet之间的跳转称为 <strong>切换(switch)</strong> 。
     </p>
     
     <p>
@@ -278,7 +278,7 @@ gr2=greenlet(test2)
 gr1.switch("hello"," world")</pre>
     
     <p>
-      这会打印出 “hello world” 和42，跟前面的例子的输出顺序相同。注意 test1() 和 test2() 的参数并不是在 greenlet 创建时指定的，而是在第一次切换到这里时传递的。
+      这会打印出 "hello world" 和42，跟前面的例子的输出顺序相同。注意 test1() 和 test2() 的参数并不是在 greenlet 创建时指定的，而是在第一次切换到这里时传递的。
     </p>
     
     <p>

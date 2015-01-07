@@ -31,7 +31,7 @@ categories:
 
 首先，下载RssToolkit工具包。
 
-新建网站项目，加入aspx文件，右击工具栏的常规选项，找到“选择项”，选择你的dll，加入到项目中来。
+新建网站项目，加入aspx文件，右击工具栏的常规选项，找到"选择项"，选择你的dll，加入到项目中来。
 
 [<img class="alignnone size-full wp-image-2277" title="rss" src="http://lazynight.me/wp-content/uploads/2012/06/rss.gif" alt="" width="322" height="343" />][1]
 

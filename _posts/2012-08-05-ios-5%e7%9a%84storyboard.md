@@ -26,7 +26,7 @@ StoryBoarding机制比之NIB/XIB的的优势何在呢？个人认为，StoryBoar
 
 <span style="font-family: 黑体;">能够使View和Controller进一步解耦；</span>
 
-<span style="font-family: 黑体;">能够优化程序的“页面流”，使程序的结构更清楚 ；</span>
+<span style="font-family: 黑体;">能够优化程序的"页面流"，使程序的结构更清楚 ；</span>
 
 <span style="font-family: 黑体;">要理解这些优点，我们先要对NIB有一个基本的认识。通常，NIB是和ViewController相关联的，很多ViewController都有对应的NIB文件。NIB文件的作用是描述用户界面以及初始化对象和界面元素对象。其实开发者在NIB里描述的界面和初始化的对象都能够在代码中实现；之所以用Interface Builder来绘制界面，是为了减少那些设置界面属性的无聊和重复的代码，让开发人员能够集中精力做程序的功能。</span>
 
@@ -41,14 +41,14 @@ StoryBoarding机制比之NIB/XIB的的优势何在呢？个人认为，StoryBoar
 
 <span style="font-family: 黑体;">举个例子来说：在过去，特别是初学Cocoa Touch开发的时候，很多人都喜欢直接把AppDelegate当ViewController用，直接在AppDelegate和MainMenu.xib之间交互。应该说，这是一个非常不好的习惯。AppDelegate的作用很简单，就是处理UIApplication的回调，而不应该负责用户界面的处理。很多iOS教程为了省事，都直接把AppDelegate当ViewController用，甚至直接举例在UIWindow上绘制界面。虽然，作为教程这么做很简单明了，因为UIWindow也是UIView的子类，但是这却不是一种优良的实践。因为由ViewController来负责处理View才是正确的做法。</span>
 
-<span style="font-family: 黑体;">近一段时间，苹果的项目模版经常发生改变，特别是自从Xcode 4发布之后，程序模版（如，View Based Application）开始鼓励使用UIWindow的rootViewController属性来指定第一屏的ViewController，以保证AppDelegate专注于它应该做的事情。而引入StoryBoard之后，AppDelegate已经不管ViewController的事情了 ；第一屏所使用的ViewController（也就是rootViewController）可以在StoryBoard中设置。这样，程序的入口点就能从StoryBoard的“设计图”上一目了然了。这是第二个优点。</span>
+<span style="font-family: 黑体;">近一段时间，苹果的项目模版经常发生改变，特别是自从Xcode 4发布之后，程序模版（如，View Based Application）开始鼓励使用UIWindow的rootViewController属性来指定第一屏的ViewController，以保证AppDelegate专注于它应该做的事情。而引入StoryBoard之后，AppDelegate已经不管ViewController的事情了 ；第一屏所使用的ViewController（也就是rootViewController）可以在StoryBoard中设置。这样，程序的入口点就能从StoryBoard的"设计图"上一目了然了。这是第二个优点。</span>
 
 <img title="iOS <wbr>5的StoryBoard" src="http://s5.sinaimg.cn/middle/59c8adb9hafb1dfbabfa4&690" alt="iOS <wbr>5的StoryBoard" name="image_operate_6801319078470884" width="604" height="579" />
 
 <div>
 </div>
 
-<span style="font-family: 黑体;">至于第三个优点，就是StoryBoard的“设计图”了。StoryBoard能够包含一个程序所有的ViewController以及它们之间的连接。因此，StoryBoard甚至可以作为程序的“设计图”来用了。理想情况下，在程序开发接近尾声的时候，我们只需对比StoryBoard的“流程”和最初程序的设计“流程”，就知道程序有没有“走样”了。</span>
+<span style="font-family: 黑体;">至于第三个优点，就是StoryBoard的"设计图"了。StoryBoard能够包含一个程序所有的ViewController以及它们之间的连接。因此，StoryBoard甚至可以作为程序的"设计图"来用了。理想情况下，在程序开发接近尾声的时候，我们只需对比StoryBoard的"流程"和最初程序的设计"流程"，就知道程序有没有"走样"了。</span>
 
 <img title="iOS <wbr>5的StoryBoard" src="http://s5.sinaimg.cn/middle/59c8adb9hafb1dfca0e84&690" alt="iOS <wbr>5的StoryBoard" name="image_operate_65941319078466940" width="454" height="534" />
 
@@ -67,7 +67,7 @@ StoryBoarding机制比之NIB/XIB的的优势何在呢？个人认为，StoryBoar
 
 <span style="font-family: 黑体;">最后，写优质的代码，严格遵守MVC设计模式，这样不仅能够让你用好StoryBoard，也能帮助你理解StoryBoard的原理。</span>
 
-<span style="font-family: 黑体;">StoryBoard是非常好的鼓励MVC和代码解耦的手段，能够让开发人员写出更加容易维护的代码。不过对于初学者来说，确实是个对理解力的小挑战。不过作为初学者也不用担心，一旦突破了理解障碍，你就会发现StoryBoard也非常好用－－就像最初理解NIB/XIB时，Outlet和Action“拉线”来“拉线”去，看起来也很神奇；理解之后，发现原来“拉线”神马的也没那么神秘。</span>
+<span style="font-family: 黑体;">StoryBoard是非常好的鼓励MVC和代码解耦的手段，能够让开发人员写出更加容易维护的代码。不过对于初学者来说，确实是个对理解力的小挑战。不过作为初学者也不用担心，一旦突破了理解障碍，你就会发现StoryBoard也非常好用－－就像最初理解NIB/XIB时，Outlet和Action"拉线"来"拉线"去，看起来也很神奇；理解之后，发现原来"拉线"神马的也没那么神秘。</span>
 
 <span style="font-family: 黑体;">好了，絮絮叨叨的啰嗦了这么多无聊的文字，相信你也看累了。如果你依然对我写的东西不知所云的话，你可以稍稍研究一下Xcode 4.2的几个内建模版，然后和使用XIB的模版对比一下，看看苹果是怎么用StoryBoard的，能够很好的帮助你理解Storyboarding机制。当然，千万不要忘记亲自动手用一用StoryBoard！</span>
 

@@ -13,7 +13,7 @@ categories:
   - 'C#'
   - 技术杂谈
 ---
-<span style="color: #ff6600;">看完这个，我觉得之前写的“夜阑MP3标签修改器”之所以占内存大的缘故就明了了，至少这是一方面。</span>
+<span style="color: #ff6600;">看完这个，我觉得之前写的"夜阑MP3标签修改器"之所以占内存大的缘故就明了了，至少这是一方面。</span>
 
 &nbsp;
 
@@ -31,7 +31,7 @@ String类型对象的特点：
 
 4.定义相等运算符（**==** 和 **!=**）是为了比较 String 对象的值（而不是引用）
 
-大家都知道字符串对象是“不可变的”,  
+大家都知道字符串对象是"不可变的",  
 对字符串进行操作的方法实际上返回的是新的字符串对象。  
 在前面的示例中，将 `s1` 和 `s2` 的内容连接起来以构成一个字符串时，包含 `"orange"` 和 `"red"` 的两个字符串均保持不变。**+=** 运算符会创建一个包含组合内容的新字符串。结果是 `s1` 现在引用一个完全不同的字符串。只包含`"orange" `的字符串仍然存在，但连接 `s1` 后将不再被引用。  
 大量的字符串相加的时候就会有很多想s1一样的 不在被引用,从而造成资源的极大浪费.
@@ -44,7 +44,7 @@ internal volatile string m_StringValue;
 
 写到这里,需要有人见看到了 volatile,也许不明白是什么意思,大概的说下.
 
-volatile关键字实现了线程间数据同步,用volatile修饰后的变量不允许有不同于“主”内存区域的变量拷贝。
+volatile关键字实现了线程间数据同步,用volatile修饰后的变量不允许有不同于"主"内存区域的变量拷贝。
 
 换句话说，一个变量经volatile修饰后在所有线程中必须是同步的;任何线程中改变了它的值，所有其他线程立即
 
@@ -68,7 +68,7 @@ String  对象是不可改变的。每次使用    System.String    类�
 StringBuilder    MyStringBuilder    =    new    StringBuilder(&#8220;Hello    World!&#8221;);
 
 设置容量和长度  
-虽然    StringBuilder    对象是动态对象，允许扩充它所封装的字符串中字符的数量，但是您可以为它可容纳的最大字符数指定一个值。此值称为该对象的容量，不应将它与当前    StringBuilder    对象容纳的字符串长度混淆在一起。例如，可以创建    StringBuilder    类的带有字符串“Hello”（长度为    5）的一个新实例，同时可以指定该对象的最大容量为    25。当修改    StringBuilder    时，在达到容量之前，它不会为其自己重新分配空间。当达到容量时，将自动分配新的空间且容量翻倍。可以使用重载的构造函数之一来指定    StringBuilder    类的容量。以下代码示例指定可以将    MyStringBuilder    对象扩充到最大    25    个空白。
+虽然    StringBuilder    对象是动态对象，允许扩充它所封装的字符串中字符的数量，但是您可以为它可容纳的最大字符数指定一个值。此值称为该对象的容量，不应将它与当前    StringBuilder    对象容纳的字符串长度混淆在一起。例如，可以创建    StringBuilder    类的带有字符串"Hello"（长度为    5）的一个新实例，同时可以指定该对象的最大容量为    25。当修改    StringBuilder    时，在达到容量之前，它不会为其自己重新分配空间。当达到容量时，将自动分配新的空间且容量翻倍。可以使用重载的构造函数之一来指定    StringBuilder    类的容量。以下代码示例指定可以将    MyStringBuilder    对象扩充到最大    25    个空白。
 
 [C#]  
 StringBuilder    MyStringBuilder    =    new    StringBuilder(&#8220;Hello    World!&#8221;,    25);
@@ -93,7 +93,7 @@ StringBuilder.Remove    从当前    StringBuilder    对象中移除�
 StringBuilder.Replace    替换指定索引处的指定字符。
 
 Append  
-Append    方法可用来将文本或对象的字符串表示形式添加到由当前    StringBuilder    对象表示的字符串的结尾处。以下示例将一个    StringBuilder    对象初始化为“Hello    World”，然后将一些文本追加到该对象的结尾处。将根据需要自动分配空间。
+Append    方法可用来将文本或对象的字符串表示形式添加到由当前    StringBuilder    对象表示的字符串的结尾处。以下示例将一个    StringBuilder    对象初始化为"Hello    World"，然后将一些文本追加到该对象的结尾处。将根据需要自动分配空间。
 
 [C#]  
 StringBuilder    MyStringBuilder    =    new    StringBuilder(&#8220;Hello    World!&#8221;);  

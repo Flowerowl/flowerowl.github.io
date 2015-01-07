@@ -31,7 +31,7 @@ tags:
 
 <span style="color: #00ccff;">介绍：</span>
 
-在“Fruit～果実が落ちる午後～”（果实落地的午后）之中，那清脆的原声吉他伴女主唱Yuki Nishimura那清新梦幻的声线勾勒出一幅温馨夏日午后的即景。让人不禁联想到了Club 8那般葱郁的夏日情怀。虽然同样清新甜美，但与Karolina Komstedt（Vocal of Club 8）相比Yuki Nishimura的声音除了清新甜美以外更多了一份沁入心脾的清凉凛冽。
+在"Fruit～果実が落ちる午後～"（果实落地的午后）之中，那清脆的原声吉他伴女主唱Yuki Nishimura那清新梦幻的声线勾勒出一幅温馨夏日午后的即景。让人不禁联想到了Club 8那般葱郁的夏日情怀。虽然同样清新甜美，但与Karolina Komstedt（Vocal of Club 8）相比Yuki Nishimura的声音除了清新甜美以外更多了一份沁入心脾的清凉凛冽。
 
 &nbsp;
 

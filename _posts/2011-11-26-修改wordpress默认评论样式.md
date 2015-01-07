@@ -20,7 +20,7 @@ categories:
 找到如下内容：
 
 <div class="source" style="font-family: '[object HTMLOptionElement]', Consolas, 'Lucida Console', 'Courier New'; color: #c0c0c0; background-color: #000000;">
-  <span style="color: #c0c0c0;">if ( $comments ) {</span><br /> <span style="color: #c0c0c0;">foreach ( (array) $comments as $comment) {</span><br /> <span style="color: #c0c0c0;">$output .= ‘<li class=”recentcomments”>’ . /* translators: comments widget: 1: comment author, 2: post link */ sprintf(_x(‘%1$s on %2$s’, ‘widgets’), get_comment_author_link(), ‘<a href=”‘ . esc_url( get_comment_link($comment->comment_ID) ) . ‘”>’ . get_the_title($comment->comment_post_ID) . ‘</a>’) . ‘</li>’;</span><br /> <span style="color: #c0c0c0;">}</span><br /> <span style="color: #c0c0c0;">}</span>
+  <span style="color: #c0c0c0;">if ( $comments ) {</span><br /> <span style="color: #c0c0c0;">foreach ( (array) $comments as $comment) {</span><br /> <span style="color: #c0c0c0;">$output .= '<li class="recentcomments">' . /* translators: comments widget: 1: comment author, 2: post link */ sprintf(_x('%1$s on %2$s', 'widgets'), get_comment_author_link(), '<a href="' . esc_url( get_comment_link($comment->comment_ID) ) . '">' . get_the_title($comment->comment_post_ID) . '</a>') . '</li>';</span><br /> <span style="color: #c0c0c0;">}</span><br /> <span style="color: #c0c0c0;">}</span>
 </div>
 
 我把评论者去掉了，只剩下评论内容：

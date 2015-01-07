@@ -38,7 +38,7 @@ Github:
 
 > Bootstrap是快速开发Web应用程序的前端工具包。它是一个CSS和HTML的集合，它使用了最新的浏览器技术，给你的Web开发提供了时尚的版式，表单，buttons，表格，网格系统等等。
 
-2011年，twitter的“一小撮”工程师为了提高他们内部的分析和管理能力，用业余时间为他们的产品构建了一套易用、优雅、灵活、可扩展的前端工具集&#8211;[BootStrap][2]。Bootstrap由[MARK OTTO][3]和<a href="http://twitter.com/fat" target="_blank">Jacob Thornton</a>所设计和建立，在[github][4]上开源之后，迅速成为该站上最多人[watch][5]&[fork][6]的项目。大量工程师踊跃为该项目贡献代码，社区惊人地活跃，代码版本进化非常快速，官方文档质量极其高(可以说是优雅)，同时涌现了许多基于Bootstrap建设的网站：界面清新、简洁;要素排版利落大方。
+2011年，twitter的"一小撮"工程师为了提高他们内部的分析和管理能力，用业余时间为他们的产品构建了一套易用、优雅、灵活、可扩展的前端工具集&#8211;[BootStrap][2]。Bootstrap由[MARK OTTO][3]和<a href="http://twitter.com/fat" target="_blank">Jacob Thornton</a>所设计和建立，在[github][4]上开源之后，迅速成为该站上最多人[watch][5]&[fork][6]的项目。大量工程师踊跃为该项目贡献代码，社区惊人地活跃，代码版本进化非常快速，官方文档质量极其高(可以说是优雅)，同时涌现了许多基于Bootstrap建设的网站：界面清新、简洁;要素排版利落大方。
 
 总的来说就是按照规定的div标签，css还有js的部分可以不写或者少些很多，提高效率~
 

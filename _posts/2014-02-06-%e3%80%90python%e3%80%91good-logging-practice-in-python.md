@@ -24,7 +24,7 @@ tags:
   </p>
   
   <p>
-    Without the log, I can hardly know what’s wrong if a service goes down. Not only for the servers, logging is also important for desktop GUI applications. For instance, when your program crashes on your customer’s PC, you can ask them to send the log files to you, and you may can figure why. Trust me, you will never know what kind of strange issues there will be in different PC environments. I once received an error log report like this
+    Without the log, I can hardly know what's wrong if a service goes down. Not only for the servers, logging is also important for desktop GUI applications. For instance, when your program crashes on your customer's PC, you can ask them to send the log files to you, and you may can figure why. Trust me, you will never know what kind of strange issues there will be in different PC environments. I once received an error log report like this
   </p>
   
   <div class="highlight">
@@ -68,7 +68,7 @@ tags:
   </div>
   
   <p>
-    It works when the program is a simple script, but for complex systems, you better not to use this approach. First of all, you cannot leave only important messages in the log, you may see a lots of garbage messages in the log, but can’t find anything useful.You also cannot control those print statements without modifying code, you may forgot to remove those unused prints. And all printed messages go into stdout, which is bad when you have data to output to stdout. Of course you can print messages to stderr, but still, it is not a good practice to use print for logging.
+    It works when the program is a simple script, but for complex systems, you better not to use this approach. First of all, you cannot leave only important messages in the log, you may see a lots of garbage messages in the log, but can't find anything useful.You also cannot control those print statements without modifying code, you may forgot to remove those unused prints. And all printed messages go into stdout, which is bad when you have data to output to stdout. Of course you can print messages to stderr, but still, it is not a good practice to use print for logging.
   </p>
   
   <h3>
@@ -76,7 +76,7 @@ tags:
   </h3>
   
   <p>
-    So, how do you do logging correctly? It’s easy, use the standard Python logging module. Thanks to Python community, logging is a standard module, it was well designed to be easy-to-use and very flexible. You can use the <a href="http://docs.python.org/2/library/logging">logging system</a> like this
+    So, how do you do logging correctly? It's easy, use the standard Python logging module. Thanks to Python community, logging is a standard module, it was well designed to be easy-to-use and very flexible. You can use the <a href="http://docs.python.org/2/library/logging">logging system</a> like this
   </p>
   
   <div class="highlight">
@@ -106,7 +106,7 @@ tags:
   </div>
   
   <p>
-    What’s different between the “print” approach you asked. Well, of course there are benefits:
+    What's different between the "print" approach you asked. Well, of course there are benefits:
   </p>
   
   <ul>
@@ -119,7 +119,7 @@ tags:
   </ul>
   
   <p>
-    There are different importance levels you can use, debug, info, warning, error and critical. By giving different level to logger or handler, you can write only error messages to specific log file, or record debug details when debugging. Let’s change the logger level to DEBUG and see the output again
+    There are different importance levels you can use, debug, info, warning, error and critical. By giving different level to logger or handler, you can write only error messages to specific log file, or record debug details when debugging. Let's change the logger level to DEBUG and see the output again
   </p>
   
   <div class="highlight">
@@ -165,7 +165,7 @@ tags:
   </div>
   
   <p>
-    There are different handlers, you can also send records to you mailbox or even a to a remote server. You can also write your own custom logging handler. I’m not going to tell you details, please reference to official documents: <a href="http://docs.python.org/2/howto/logging.html#logging-basic-tutorial">Basic Tutorial</a>, <a href="http://docs.python.org/2/howto/logging.html#logging-advanced-tutorial">Advanced Tutorial</a> and <a href="http://docs.python.org/2/howto/logging-cookbook.html#logging-cookbook">Logging Cookbook</a>.
+    There are different handlers, you can also send records to you mailbox or even a to a remote server. You can also write your own custom logging handler. I'm not going to tell you details, please reference to official documents: <a href="http://docs.python.org/2/howto/logging.html#logging-basic-tutorial">Basic Tutorial</a>, <a href="http://docs.python.org/2/howto/logging.html#logging-advanced-tutorial">Advanced Tutorial</a> and <a href="http://docs.python.org/2/howto/logging-cookbook.html#logging-cookbook">Logging Cookbook</a>.
   </p>
   
   <h3>
@@ -177,7 +177,7 @@ tags:
   </p>
   
   <p>
-    In most cases, you don’t want to read too much details in the log file. Therefore, debug level is only enabled when you are debugging. I use debug level only for detail debugging information, especially when the data is big or the frequency is high, such as records of algorithm internal state changes in a for-loop.
+    In most cases, you don't want to read too much details in the log file. Therefore, debug level is only enabled when you are debugging. I use debug level only for detail debugging information, especially when the data is big or the frequency is high, such as records of algorithm internal state changes in a for-loop.
   </p>
   
   <div class="highlight">
@@ -242,7 +242,7 @@ tags:
   </h3>
   
   <p>
-    You don’t have to set the logger name as __name__, but by doing that, it brings us some benefits. The variable __name__ is current module name in Python. For example, you call logger.getLogger(__name__) in a module “foo.bar.my_module”, then it is logger.getLogger(“foo.bar.my_module”). When you need to configure the logger, you can configure to “foo”, then all modules in “foo” packages shares same configuration. You can also understand what is the module of message when reading the log.
+    You don't have to set the logger name as __name__, but by doing that, it brings us some benefits. The variable __name__ is current module name in Python. For example, you call logger.getLogger(__name__) in a module "foo.bar.my_module", then it is logger.getLogger("foo.bar.my_module"). When you need to configure the logger, you can configure to "foo", then all modules in "foo" packages shares same configuration. You can also understand what is the module of message when reading the log.
   </p>
   
   <h3>
@@ -250,7 +250,7 @@ tags:
   </h3>
   
   <p>
-    It is always a good practice to record when something goes wrong, but it won’t be helpful if there is no traceback. You should capture exceptions and record them with traceback. Following is an example:
+    It is always a good practice to record when something goes wrong, but it won't be helpful if there is no traceback. You should capture exceptions and record them with traceback. Following is an example:
   </p>
   
   <div class="highlight">
@@ -356,7 +356,7 @@ tags:
   </div>
   
   <p>
-    And you expect to see the records appear in log, but you will see nothing. Why? Because you create the logger at module level, you then import the module before you load the logging configuration from a file. The logging.fileConfig and logging.dictConfig disables existing loggers by default. So, those setting in file will not be applied to your logger. It’s better to get the logger when you need it. It’s cheap to create or get a logger. You can write the code like this:
+    And you expect to see the records appear in log, but you will see nothing. Why? Because you create the logger at module level, you then import the module before you load the logging configuration from a file. The logging.fileConfig and logging.dictConfig disables existing loggers by default. So, those setting in file will not be applied to your logger. It's better to get the logger when you need it. It's cheap to create or get a logger. You can write the code like this:
   </p>
   
   <div class="highlight">
@@ -380,7 +380,7 @@ tags:
   </p>
   
   <p>
-    Since Python2.7, a new argument name “disable_existing_loggers” to fileConfig and dictConfig (as a parameter in schema) is added, by setting it to False, problem mentioned above can be solved. For example:
+    Since Python2.7, a new argument name "disable_existing_loggers" to fileConfig and dictConfig (as a parameter in schema) is added, by setting it to False, problem mentioned above can be solved. For example:
   </p>
   
   <div class="highlight">
@@ -424,7 +424,7 @@ tags:
   </h3>
   
   <p>
-    You can configure your logging system in Python code, but it is not flexible. It’s better to use a logging configuration file. After Python 2.7, you can load logging configuration from a dict. It means you can load the logging configuration from a JSON or YAML file. Although you can use the old .ini style logging configuration, it is difficult to read and write. Here I show you an logging configuration example in JSON or YAML
+    You can configure your logging system in Python code, but it is not flexible. It's better to use a logging configuration file. After Python 2.7, you can load logging configuration from a dict. It means you can load the logging configuration from a JSON or YAML file. Although you can use the old .ini style logging configuration, it is difficult to read and write. Here I show you an logging configuration example in JSON or YAML
   </p>
   
   <p>
@@ -567,7 +567,7 @@ tags:
   </div>
   
   <p>
-    One advantage of using JSON configuration is that the json is a standard library, you don’t need to install it. But personally, I prefer YAML. It’s very clear to read and easy to write. You can also load the YAML configuration with following recipes
+    One advantage of using JSON configuration is that the json is a standard library, you don't need to install it. But personally, I prefer YAML. It's very clear to read and easy to write. You can also load the YAML configuration with following recipes
   </p>
   
   <div class="highlight">
@@ -628,7 +628,7 @@ tags:
   </h3>
   
   <p>
-    When you have multiple servers and different log files. You can setup a central log system to collect all important (warning and error messages in most cases). Then you can monitor it easily and notice what’s wrong in your system.
+    When you have multiple servers and different log files. You can setup a central log system to collect all important (warning and error messages in most cases). Then you can monitor it easily and notice what's wrong in your system.
   </p>
   
   <h3>
@@ -636,7 +636,7 @@ tags:
   </h3>
   
   <p>
-    I’m glad that Python logging library is nicely designed, and the best part is that it is a standard library, you don’t have to choose. It is flexible, you can write your own handlers and filters. There are also third-party handlers such as <a href="http://zeromq.org">ZeroMQ</a> logging handler provided by <a href="http://zeromq.github.io/pyzmq/">pyzmq</a>, it allows you to send logging messages through a zmq socket. If you don’t know how to use the logging system correctly, this article might be helpful. With good logging practice, you can find issues in your system easier. It’s a nice investment, don’t you buy it? <img src='http://lazynight.me/wp-content/themes/d8/img/smilies/icon_biggrin.gif' alt=':D' class='wp-smiley' />
+    I'm glad that Python logging library is nicely designed, and the best part is that it is a standard library, you don't have to choose. It is flexible, you can write your own handlers and filters. There are also third-party handlers such as <a href="http://zeromq.org">ZeroMQ</a> logging handler provided by <a href="http://zeromq.github.io/pyzmq/">pyzmq</a>, it allows you to send logging messages through a zmq socket. If you don't know how to use the logging system correctly, this article might be helpful. With good logging practice, you can find issues in your system easier. It's a nice investment, don't you buy it? <img src='http://lazynight.me/wp-content/themes/d8/img/smilies/icon_biggrin.gif' alt=':D' class='wp-smiley' />
   </p>
 </div>
 

@@ -13,7 +13,7 @@ categories:
   - WCF
   - 代码
 ---
-<span style="color: #ff0000;">1.</span>通过为Client添加服务引用，右键点击Client项目，在弹出的上下文中选择“添加服务引用”，在地址栏中填写服务元数据的发布源地址
+<span style="color: #ff0000;">1.</span>通过为Client添加服务引用，右键点击Client项目，在弹出的上下文中选择"添加服务引用"，在地址栏中填写服务元数据的发布源地址
 
 [<img class="alignnone size-full wp-image-2331" title="servi" src="http://lazynight.me/wp-content/uploads/2012/06/servi.gif" alt="" width="635" height="509" />][1]
 

@@ -61,7 +61,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 <span style="color: #e52e00;"> &#8211; workon [env]</span>
 
-随时使用“workon 环境名”可以进行环境切换，如果不带环境名参数，则显示当前使用的环境
+随时使用"workon 环境名"可以进行环境切换，如果不带环境名参数，则显示当前使用的环境
 
 <span style="color: #e52e00;"> &#8211; deactivate</span>
 

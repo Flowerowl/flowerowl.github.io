@@ -25,7 +25,7 @@ tags:
 <div>
   <div id="the-performance-impact-of-using-dict-instead-of-in-cpython-2-7">
     <p>
-      I’ve been reviewing lot of code lately for various open source and internal projects written in Python. As part of those reviews, I have noticed what I think is a trend toward using<tt>dict()</tt> instead of <tt>{}</tt> to create dictionaries. I don’t know exactly why this trend has emerged. Perhaps the authors perceive <tt>dict()</tt> as more readable than <tt>{}</tt>. Whatever the reason, my intuition told me calling the function version of the constructor for adictionary would impose a performance penalty. I studied what happens in both cases to understand how significant that penalty is, and the results confirmed my intuition.
+      I've been reviewing lot of code lately for various open source and internal projects written in Python. As part of those reviews, I have noticed what I think is a trend toward using<tt>dict()</tt> instead of <tt>{}</tt> to create dictionaries. I don't know exactly why this trend has emerged. Perhaps the authors perceive <tt>dict()</tt> as more readable than <tt>{}</tt>. Whatever the reason, my intuition told me calling the function version of the constructor for adictionary would impose a performance penalty. I studied what happens in both cases to understand how significant that penalty is, and the results confirmed my intuition.
     </p>
     
     <div id="tl-dr">
@@ -44,7 +44,7 @@ tags:
       </h2>
       
       <p>
-        I wanted to study the performance difference between the literal syntax for creating a dictionary instance (<tt>{}</tt>) and using the name of the class to create one (<tt>dict()</tt>). I knew that the Python interpreter is based on opcodes and that there are codes dedicated to creating a dictionary that would not be invoked when the <tt>dict()</tt> form was used instead of the literal form. I suspected that the extra overhead for looking up the name <tt>"dict"</tt> and then calling the function would make the “function” form slower.
+        I wanted to study the performance difference between the literal syntax for creating a dictionary instance (<tt>{}</tt>) and using the name of the class to create one (<tt>dict()</tt>). I knew that the Python interpreter is based on opcodes and that there are codes dedicated to creating a dictionary that would not be invoked when the <tt>dict()</tt> form was used instead of the literal form. I suspected that the extra overhead for looking up the name <tt>"dict"</tt> and then calling the function would make the "function" form slower.
       </p>
     </div>
     
@@ -120,7 +120,7 @@ raw times: 0.178 0.178 0.18 0.177 0.179
       </div>
       
       <p>
-        The output of dis is arranged in columns with the original source line number, the instruction “address” within the code object, the opcode name, and any arguments passed to the opcode.
+        The output of dis is arranged in columns with the original source line number, the instruction "address" within the code object, the opcode name, and any arguments passed to the opcode.
       </p>
       
       <div>
@@ -133,7 +133,7 @@ raw times: 0.178 0.178 0.18 0.177 0.179
       </div>
       
       <p>
-        The function form uses two separate opcodes: <tt>LOAD_NAME</tt> to find the object associated with the name “dict”, and <tt>CALL_FUNCTION</tt> to invoke it. The last three opcodes are not involved in creating or populating the dictionary, and appear in both versions of the code, so I ignored them for my analysis.
+        The function form uses two separate opcodes: <tt>LOAD_NAME</tt> to find the object associated with the name "dict", and <tt>CALL_FUNCTION</tt> to invoke it. The last three opcodes are not involved in creating or populating the dictionary, and appear in both versions of the code, so I ignored them for my analysis.
       </p>
       
       <p>
@@ -149,7 +149,7 @@ raw times: 0.178 0.178 0.18 0.177 0.179
       </div>
       
       <p>
-        The <tt>BUILD_MAP</tt> opcode creates a new empty dictionary instance and places it on the top of the interpreter’s stack.
+        The <tt>BUILD_MAP</tt> opcode creates a new empty dictionary instance and places it on the top of the interpreter's stack.
       </p>
       
       <p>
@@ -380,7 +380,7 @@ $ cd cpython</pre>
       </p>
       
       <p>
-        The <tt>LOAD_NAME</tt> opcode finds the object associated with the given name (“dict” in this case) and puts it on top of the stack.
+        The <tt>LOAD_NAME</tt> opcode finds the object associated with the given name ("dict" in this case) and puts it on top of the stack.
       </p>
       
       <div>
@@ -478,7 +478,7 @@ $ cd cpython</pre>
       </p>
       
       <p>
-        <tt>LOAD_CONST</tt> is the next opcode used. It pushes literal constant values onto the interpreter’s stack:
+        <tt>LOAD_CONST</tt> is the next opcode used. It pushes literal constant values onto the interpreter's stack:
       </p>
       
       <div>
@@ -508,7 +508,7 @@ $ cd cpython</pre>
       </div>
       
       <p>
-        The <tt>oparg</tt> value indicates which constant to take out of the set of constants found in the code object. The constant’s reference count is increased and then it is pushed onto the top of the stack. This is an inexpensive operation since no name lookup is needed.
+        The <tt>oparg</tt> value indicates which constant to take out of the set of constants found in the code object. The constant's reference count is increased and then it is pushed onto the top of the stack. This is an inexpensive operation since no name lookup is needed.
       </p>
       
       <p>
@@ -904,7 +904,7 @@ update_keyword_args(PyObject *orig_kwdict, int nk, PyObject ***pp_stack,
       </div>
       
       <p>
-        That’s right.
+        That's right.
       </p>
       
       <p>
@@ -1539,7 +1539,7 @@ PyDict_SetItem(register PyObject *op, PyObject *key, PyObject *value)
       </div>
       
       <p>
-        The functions it calls handle resizing the internal data structure used by the dictionary, if that’s necessary.
+        The functions it calls handle resizing the internal data structure used by the dictionary, if that's necessary.
       </p>
     </div>
     
@@ -1674,7 +1674,7 @@ raw times: 0.138 0.136 0.137 0.137 0.14
       </div>
       
       <p>
-        So that eliminates one common case for calling <tt>dict()</tt>. Using the literal dictionary syntax feels more “pythonic” to me, so I try to just do it anyway.
+        So that eliminates one common case for calling <tt>dict()</tt>. Using the literal dictionary syntax feels more "pythonic" to me, so I try to just do it anyway.
       </p>
       
       <p>

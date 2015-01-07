@@ -18,7 +18,7 @@ tags:
   - VPS
   - 静态
 ---
-每个linode VPS都会配备至少一个静态ip地址，这个地址就在你的“系统控制面板” 的“Remote Access”选项卡里，“Public IPs”所列出来的ip地址，就是你所拥有的静态ip地址。因为linode vps的静态ip地址是以DHCP模式有上一级系统自动分配的，所以为安全起见，在你的系统安装完毕、第一次启动以后，你需要做的就是将这（些）个ip地 址依次填入系统的相关控制文件内，达到真正“静态”的目的。做法如下：
+每个linode VPS都会配备至少一个静态ip地址，这个地址就在你的"系统控制面板" 的"Remote Access"选项卡里，"Public IPs"所列出来的ip地址，就是你所拥有的静态ip地址。因为linode vps的静态ip地址是以DHCP模式有上一级系统自动分配的，所以为安全起见，在你的系统安装完毕、第一次启动以后，你需要做的就是将这（些）个ip地 址依次填入系统的相关控制文件内，达到真正"静态"的目的。做法如下：
 
 1. 对于Debian / Ubuntu系统：需要修改这个文件 /etc/network/interfaces，按以下格式依次填写
 
@@ -50,9 +50,9 @@ iface eth0:1 inet static
 address 192.168.133.234  
 netmask 255.255.128.0
 
-Debian/Ubuntu的网卡命名规则比较容易理解，其中：eth0代表你的网卡，此端口匹配第一个ip地址；eth0:0代表你的第二个网 卡，但因为只有一个物理网卡，为和之前的区分，则以“interface:alias_name”的规则加以区分命名，此端口匹配第二个ip地址；以此类 推，当你拥有多个ip地址时，分别以eth0/eth0:0/eth0:1/eth0:2等来匹配。最后一个网卡是用来匹配你的linode vps的内网ip的，也就是192.168开头的ip。
+Debian/Ubuntu的网卡命名规则比较容易理解，其中：eth0代表你的网卡，此端口匹配第一个ip地址；eth0:0代表你的第二个网 卡，但因为只有一个物理网卡，为和之前的区分，则以"interface:alias_name"的规则加以区分命名，此端口匹配第二个ip地址；以此类 推，当你拥有多个ip地址时，分别以eth0/eth0:0/eth0:1/eth0:2等来匹配。最后一个网卡是用来匹配你的linode vps的内网ip的，也就是192.168开头的ip。
 
-在配置完毕之后，在ssh界面输入以下信息，重启网卡，让以上设置生效：/etc/init.d/networking restart，之后为了验证以上设置是否正确、是否生效，你可以ping一下你的默认网关ip，这个网关ip是在“Remote Access”下的“Default Gateways”中的，如果能ping通，则代表成功！反之请检查以上的设置！
+在配置完毕之后，在ssh界面输入以下信息，重启网卡，让以上设置生效：/etc/init.d/networking restart，之后为了验证以上设置是否正确、是否生效，你可以ping一下你的默认网关ip，这个网关ip是在"Remote Access"下的"Default Gateways"中的，如果能ping通，则代表成功！反之请检查以上的设置！
 
 因为你的linode vps只有一张物理网卡的缘故，只需配置一个网关即可，一般在第一个ip地址中配置，剩下的ip地址无须配置。
 
