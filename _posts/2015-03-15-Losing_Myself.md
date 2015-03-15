@@ -2,7 +2,7 @@
 title: Losing Myself
 author: Flowerowl
 layout: post
-permalink: /4001.html
+permalink: /4002.html
 views:
   - 667
 categories:
@@ -11,7 +11,7 @@ tags:
   - 总结
 ---
 
-<embed src="http://music.163.com/style/swf/widget.swf?sid=368738&type=2&auto=0&width=320&height=66" width="340" height="86"  allowNetworking="all"></embed>embed>
+<embed src="http://music.163.com/style/swf/widget.swf?sid=368738&type=2&auto=0&width=320&height=66" width="340" height="86"  allowNetworking="all"></embed>
 
 不知什么时候变的麻木，
 
