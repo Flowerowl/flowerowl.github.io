@@ -114,10 +114,11 @@ baseclass
 
 
 ---------------------------------
-╭─fuyu@Lazynight  ~/z/pj
-╰─$ python singleton.py
-4404881104 4404881104
-zhe zhe
+
+    ╭─fuyu@Lazynight  ~/z/pj
+    ╰─$ python singleton.py
+    4404881104 4404881104
+    zhe zhe
 
 3.
 
