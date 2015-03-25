@@ -86,13 +86,16 @@ tags:
 
 2.
 
+baseclass
 类每一次实例化后产生的过程都是通过new来控制的，所以通过重载new方法，可以很简单的实现单例模式。
 
     class Singleton(object):
+        instances = {}
+    
         def __new__(cls, *args, **kwargs):
-            if not hasattr(cls, '_instance'):
-                cls._instance = super(Singleton, cls).__new__(cls, *args, **kwargs)
-            return cls._instance
+            if cls not in cls.instances:
+                cls.instances[cls] = super(Singleton, cls).__new__(cls, *args, **kwargs)
+            return cls.instances[cls]
     
     
     class jijiyu(Singleton):
@@ -109,8 +112,82 @@ tags:
     print id(yu), id(zhe)
     print yu, zhe
 
+
 ---------------------------------
+╭─fuyu@Lazynight  ~/z/pj
+╰─$ python singleton.py
+4404881104 4404881104
+zhe zhe
+
+3.
+
+decorators
+
+    def singleton(_class):
+        instances = {}
+    
+        def get_instance(*args, **kwargs):
+            if _class not in instances:
+                instances[_class] = _class(*args, **kwargs)
+            return instances[_class]
+        return get_instance
+    
+    
+    @singleton
+    class jijiyu(object):
+        def __init__(self, name):
+            self.name = name
+    
+        def __str__(self):
+            return self.name
+    
+    
+    yu = jijiyu('yu')
+    zhe = jijiyu('zhe')
+    
+    
+    print id(yu), id(zhe)
+    print yu, zhe
+
+----------------------------------
+
     ╭─fuyu@Lazynight  ~/z/pj
     ╰─$ python singleton.py
-    4549436560 4549436560
-    zhe zhe
+    4480058256 4480058256
+    yu yu
+
+4.
+    metaclass
+
+    class Singleton(type):
+        instances = {}
+    
+        def __call__(cls, *args, **kwargs):
+            if cls not in cls.instances:
+                cls.instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)
+            return cls.instances[cls]
+    
+    
+    class jijiyu(object):
+        def __init__(self, name):
+            self.name = name
+    
+        def __str__(self):
+            return self.name
+    
+        __metaclass__ = Singleton
+    
+    
+    yu = jijiyu('yu')
+    zhe = jijiyu('zhe')
+    
+    
+    print id(yu), id(zhe)
+    print yu, zhe
+    
+----------------------
+
+    ╭─fuyu@Lazynight  ~/z/pj
+    ╰─$ python singleton.py
+    4374202832 4374202832
+    yu yu
