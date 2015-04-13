@@ -88,7 +88,7 @@ Computer => antivirus_software , 其中 support=2%, confidence=60%
 
 ### 2.2 产生强规则
 
-Confidence(A->B)=P(B|A)=support_count(AB)/support_count(A)
+Confidence(A->B)=support_count(AB)/support_count(A)
 
 关联规则产生步骤如下：
 
@@ -111,7 +111,7 @@ c ->a&&b confidence=2/2=100%
 
 如果最小可信度=70%,则强规则有a&&c->b，b&&c->a，c->a&&b。
 
-### 2.3 实现
+## 3 实现
 
 https://github.com/Flowerowl/Apriori
 
