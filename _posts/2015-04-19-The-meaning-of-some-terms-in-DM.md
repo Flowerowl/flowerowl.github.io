@@ -174,7 +174,9 @@ Guassian KernelFunction 高斯核函数/Radial BasisFunction RBF径向基函数�
 
 String KernelFunction 字符串核函数)、
 
-NB(Naive Bayes 朴素贝叶斯)，BN(Bayesian Network/Bayesian Belief Network/ Belief Network 贝叶斯网络/贝叶斯信度网络/信念网络)，
+NB(Naive Bayes 朴素贝叶斯)，
+
+BN(Bayesian Network/Bayesian Belief Network/ Belief Network 贝叶斯网络/贝叶斯信度网络/信念网络)，
 
 LDA(Linear Discriminant Analysis/FisherLinear Discriminant 线性判别分析/Fisher线性判别)，
 
@@ -188,13 +190,21 @@ MEM(MaximumEntropy Model最大熵模型)。
 
 Confusion Matrix(混淆矩阵)，
 
-Precision(精确度)，Recall(召回率)，
+Precision(精确度)，
 
-Accuracy(准确率)，F-score(F得分)，
+Recall(召回率)，
 
-ROC Curve(ROC曲线)，AUC(AUC面积)，
+Accuracy(准确率)，
 
-LiftCurve(Lift曲线) ，KS Curve(KS曲线)。
+F-score(F得分)，
+
+ROC Curve(ROC曲线)，
+
+AUC(AUC面积)，
+
+LiftCurve(Lift曲线) ，
+
+KS Curve(KS曲线)。
 
 ### PGM(Probabilistic Graphical Models概率图模型)：
 
@@ -362,9 +372,7 @@ Multiplier Methods(乘子法)。
 
 Heuristic Algorithm(启发式算法)，
 
-SA(SimulatedAnnealing，
-
-模拟退火算法)，
+SA(SimulatedAnnealing，模拟退火算法)，
 
 GA(genetic algorithm遗传算法)。
 
