@@ -14,9 +14,8 @@ tags:
 The maximum subarray problem is the task of finding the contiguous subarray within a one-dimensional array of numbers (containing at least one positive number) which has the largest sum.
 
 
-/*
- *O(N^3)
- */
+
+### O(N^3)
 
     int
     MaxSubsequenceSum(const int A[], int N){
@@ -38,9 +37,7 @@ The maximum subarray problem is the task of finding the contiguous subarray with
         return MaxSum;
     }
 
-/*
- *O(N^2)
- */
+### O(N^2)
 
     int
     MaxSubsequenceSum(const int A[], int N){
@@ -60,9 +57,7 @@ The maximum subarray problem is the task of finding the contiguous subarray with
         return MaxSum;
     }
 
-/*
- *O(NlogN)
- */
+### O(NlogN)
 
     int
     MaxSubsequenceSum(const int A[], int Left, int Right){
@@ -102,9 +97,7 @@ The maximum subarray problem is the task of finding the contiguous subarray with
         return MAX(MAX(MaxLeftSum, MaxRightSum), MaxLeftBorderSum + MaxRightBorderSum);
     }
 
-/*
- *O(N)
- */
+### O(N)
 
     int
     MaxSubsequenceSum(const int A[], int N){
