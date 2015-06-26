@@ -4,9 +4,9 @@ title: About me
 permalink: /about/
 ---
 
-Hi, I am YuZhe, a Python developer (who works on the web). 
+Hi, I am Yuzhe, a Python developer (who works on the web). 
 
-I am Working for [sohu][tf].
+I am working for [SOHU][tf].
 
 ![aboutme](/wp-content/uploads/2014/12/aboutme.png)
 (2014.6)
