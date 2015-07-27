@@ -12,7 +12,7 @@ tags:
 ---
 ### Intro
 
-This program is based WebGL and Web Audio API.
+This is a music visualization project based on **WebGL** and **Web Audio API**.
 
 ### Step
 
