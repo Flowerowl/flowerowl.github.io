@@ -52,7 +52,7 @@ Han defines the FP-tree as the tree structure defined below:
 
     2. Create the root of an FP-tree, T, and label it as “null”. For each transaction Trans in DB do the following:
 
-        * Select the frequent items in Trans and sort them according to the order of FList. Let the sorted frequent-item list in Trans be [ p | P], where p is the first element and P is the remaining list. Call insert tree([ p | P], T ).
+        * Select the frequent items in Trans and sort them according to the order of FList. Let the sorted frequent-item list in Trans be [p \| P], where p is the first element and P is the remaining list. Call insert tree([ p \| P], T ).
 
         * The function insert tree([ p \| P], T ) is performed as follows. If T has a child N such that N.item-name = p.item-name, then increment N ’s count by 1; else create a new node N , with its count initialized to 1, its parent link linked to T , and its node-link linked to the nodes with the same item-name via the node-link structure. If P is nonempty, call insert tree(P, N ) recursively.
 
