@@ -67,6 +67,7 @@ After constructing the FP-Tree it’s possible to mine it to find the complete s
 3. Method: call FP-growth(FP-tree, null).
 
 4. Procedure FP-growth(Tree, a) {
+
     (01) if Tree contains a single prefix path then // Mining single prefix-path FP-tree {
 
     (02) let P be the single prefix-path part of Tree;
