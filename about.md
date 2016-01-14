@@ -4,9 +4,9 @@ title: About me
 permalink: /about/
 ---
 
-Hi, I am Yuzhe, a Python developer (who works on the web). 
+Hi, My name is YuZhe(Flowerowl/吉吉于/Lazynight elsewhere).
 
-I am working for [SOHU][tf].
+I am currently living in Beijing, China.
 
 ![aboutme](/wp-content/uploads/2014/12/aboutme.png)
 (2014.6)
@@ -17,7 +17,6 @@ Find me on [Github][github] / [Twitter][Twitter] / [Weibo][Weibo] / [Douban][Dou
 [lazynightz@gmail.com](lazynightz@gmail.com).
 
 
-[tf]: http://www.sohu.com
 [github]: https://github.com/flowerowl
 [twitter]: https://twitter.com/yyyyzzzzz
 [douban]: http://www.douban.com/people/yuzhezhe
