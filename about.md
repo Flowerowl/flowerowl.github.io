@@ -13,7 +13,7 @@ I am currently living in Beijing, China.
 
 ### Contact me
 
-Find me on [Github][github] / [Twitter][Twitter] / [Weibo][Weibo] / [Douban][Douban] / [Xiami][Xiami] or just say `Hello` at 
+Find me on [Github][github] / [Twitter][Twitter] / [Instagram][Instagram] / [Weibo][Weibo] / [Douban][Douban] / [Xiami][Xiami] or just say `Hello` at 
 [lazynightz@gmail.com](lazynightz@gmail.com).
 
 
@@ -22,6 +22,7 @@ Find me on [Github][github] / [Twitter][Twitter] / [Weibo][Weibo] / [Douban][Dou
 [douban]: http://www.douban.com/people/yuzhezhe
 [xiami]: http://www.xiami.com/u/1104863
 [weibo]: http://weibo.com/lazynightz
+[instagram]: https://www.instagram.com/la2yni9ht/
 
 <div class="github-card" data-github="flowerowl" data-width="400" data-height="150" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
