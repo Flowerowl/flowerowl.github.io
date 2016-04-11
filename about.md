@@ -13,7 +13,7 @@ I am currently living in Beijing, China.
 
 ### Contact me
 
-Find me on [Github][github] / [Twitter][Twitter] / [Instagram][Instagram] / [Weibo][Weibo] / [Douban][Douban] / [NetEaseCloudMusic ][NetEaseCloudMusic ] / [Xiami][Xiami] or just say `Hello` at 
+Find me on [Github][github] / [Twitter][Twitter] / [Instagram][Instagram] / [Weibo][Weibo] / [Douban][Douban] / [NetEaseCloudMusic][NetEaseCloudMusic] / [Xiami][Xiami] or just say `Hello` at 
 [lazynightz@gmail.com](lazynightz@gmail.com).
 
 
