@@ -23,6 +23,10 @@ In order to do so, the points of the database are (linearly) ordered such that p
 
 Additionally, a special distance is stored for each point that represents the density that needs to be accepted for a cluster in order to have both points belong to the same cluster. 
 
+## More
+
+<https://en.wikipedia.org/wiki/OPTICS_algorithm>
+
 ## Code
 
-https://github.com/Flowerowl/optics
+<https://github.com/Flowerowl/optics>
