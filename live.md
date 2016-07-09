@@ -6,6 +6,8 @@ permalink: /live/
 
 * 2016.10 张学友
 
+* 2016.8 Scorpions
+
 * 2016.5 Rudolf Buchbinder
 
 * 2016.4 Iron Maiden
