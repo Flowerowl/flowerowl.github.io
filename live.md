@@ -4,6 +4,8 @@ title: Live
 permalink: /live/
 ---
 
+* 2016.12 Richard Clayderman
+
 * 2016.10 张学友
 
 * 2016.10 Mono
