@@ -11,9 +11,9 @@ I am currently living in Beijing, China.
 ![aboutme](/wp-content/uploads/2014/12/aboutme.png)
 (2014.6)
 
-Some places i've been before. From now on, want to travel around the world.
+Some places i've been before.
 ![travel](/wp-content/uploads/travel.png)
-(2016.6)
+(2016.10)
 
 ### Contact me
 
