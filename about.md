@@ -24,10 +24,8 @@ Find me on [Github][github] / [Twitter][Twitter] / [Instagram][Instagram] / [Wei
 [github]: https://github.com/flowerowl
 [twitter]: https://twitter.com/yyyyzzzzz
 [douban]: http://www.douban.com/people/yuzhezhe
-[xiami]: http://www.xiami.com/u/1104863
 [weibo]: http://weibo.com/lazynightz
 [instagram]: https://www.instagram.com/la2yni9ht/
-[neteasecloudmusic]: http://music.163.com/#/user/home?id=30012795 
 
 <div class="github-card" data-github="flowerowl" data-width="400" data-height="150" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
