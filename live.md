@@ -4,6 +4,10 @@ title: Live
 permalink: /live/
 ---
 
+* 2017.4 Steve Vai/Zakk Wylde/Yngwie Malmsteen/Nuno Bettencourt/Tosin Abasi
+
+* 2017.4 Maximilian Hecker
+
 * 2017.1 Chris Garneau
 
 * 2016.12 Richard Clayderman
