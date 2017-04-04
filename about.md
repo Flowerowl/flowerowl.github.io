@@ -13,7 +13,7 @@ I am currently living in Beijing, China.
 
 Some places i've been before.
 ![travel](/wp-content/uploads/travel.png)
-(2016.10)
+(2017.4)
 
 ### Contact me
 
