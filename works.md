@@ -4,6 +4,8 @@ title: Works
 permalink: /works/
 ---
 
+* opinion_mining <https://github.com/Flowerowl/opinion_mining>
+
 * ici <https://github.com/Flowerowl/ici> 
 
 * ici.go <https://github.com/Flowerowl/ici.go>
