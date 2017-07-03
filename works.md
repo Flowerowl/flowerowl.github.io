@@ -28,8 +28,6 @@ permalink: /works/
 
 * dianping_poi_decode <https://github.com/Flowerowl/dianping_poi_decode>
 
-* baidumap_coordinate_convertor <https://github.com/Flowerowl/baidumap_coordinate_convertor>
-
 * python_articles <https://github.com/Flowerowl/Python_Articles>
 
 * lazynight_fm <https://github.com/Flowerowl/Lazynight-FM>
