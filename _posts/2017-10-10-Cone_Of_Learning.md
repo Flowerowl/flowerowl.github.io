@@ -2,7 +2,7 @@
 title: Cone Of Learning
 author: Flowerowl
 layout: post
-permalink: /4039.html
+permalink: /4037.html
 views:
   - 667
 categories:
