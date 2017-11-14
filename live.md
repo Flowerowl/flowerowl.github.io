@@ -4,6 +4,8 @@ title: Live
 permalink: /live/
 ---
 
+* 2017.12 LaLaLand
+
 * 2017.8 Liam Gallagher
 
 * 2017.4 Steve Vai/Zakk Wylde/Yngwie Malmsteen/Nuno Bettencourt/Tosin Abasi
