@@ -4,6 +4,8 @@ title: Live
 permalink: /live/
 ---
 
+* 2018.9 Jz 14th Shanghai
+
 * 2017.12 LaLaLand
 
 * 2017.8 Liam Gallagher
