@@ -1,5 +1,5 @@
 ---
-title: 'List <T>,Stack <T>,Queue <T>,SortedSet <T>'
+title: List, Stack, Queue, SortedSet
 author: Flowerowl
 layout: post
 permalink: /1346.html
