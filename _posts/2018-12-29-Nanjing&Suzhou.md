@@ -11,9 +11,9 @@ tags:
   - note
 ---
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=27571835&auto=0&height=66"></iframe>
+<embed src="//music.163.com/style/swf/widget.swf?sid=22650654&type=2&auto=0&width=320&height=66" width="340" height="86"  allowNetworking="all">
 
-元旦南下南京苏州，见过北方苍茫的雪，却未曾领略江南轻盈飘逸的雪景。
+元旦下江南，见过北方苍茫的雪，却未曾领略江南轻盈飘逸的雪景。
 
 遗憾的是三天时间太短，来去匆匆只能掠之皮毛。
 
