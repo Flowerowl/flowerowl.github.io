@@ -4,6 +4,8 @@ title: Live
 permalink: /live/
 ---
 
+* 2019.6 郭富城
+
 * 2018.9 Jz 14th Shanghai
 
 * 2017.12 LaLaLand
