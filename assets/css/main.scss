@@ -292,16 +292,6 @@ footer.main-footer {
   li > a {
     width: 32px;
     height: 32px;
-    background: $base-07;
-    background-image: url("./images/socials-icons.svg");
-    background-size: 224px 64px;
-    border-radius: 0.25em;
-    @include transition(background-color 0.2s);
-    border-bottom-color: transparent;
-
-    &:hover {
-      background-color: $base-08;
-    }
   }
     
   li a.twitter {
