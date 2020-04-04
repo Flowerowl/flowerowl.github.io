@@ -20,6 +20,8 @@ permalink: /travel/
 
 ![image](wp-content/uploads/photography/4.jpg)
 
+![image](wp-content/uploads/photography/4_1.jpg)
+
 ![image](wp-content/uploads/photography/5.jpg)
 
 ![image](wp-content/uploads/photography/6.jpg)
@@ -29,3 +31,9 @@ permalink: /travel/
 ![image](wp-content/uploads/photography/8.jpg)
 
 ![image](wp-content/uploads/photography/9.jpg)
+
+![image](wp-content/uploads/photography/10.jpg)
+
+![image](wp-content/uploads/photography/11.jpg)
+
+![image](wp-content/uploads/photography/12.jpg)
