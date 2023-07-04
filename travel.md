@@ -4,7 +4,7 @@ title: Travel
 permalink: /travel/
 ---
 
-希望可以行走更多地方，拍摄人文、自然。
+在路上，拍摄人文、自然。
 
 ![image](wp-content/uploads/travel.png)
 
