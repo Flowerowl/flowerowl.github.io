@@ -23,6 +23,8 @@ tags:
 
 了却了人生的一桩心愿
 
+完整版视频: <a href="https://www.bilibili.com/video/BV1ys411r7ty/" target="_blank">Click Me</a>
+
 
 ![scorpions](http://lazynight.me/wp-content/uploads/2016/08/scorpions/1.jpg)
 
@@ -50,6 +52,3 @@ tags:
 
 ![scorpions](http://lazynight.me/wp-content/uploads/2016/08/scorpions/13.jpg)
 
-完整版视频
-
-<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="http://static.hdslb.com/miniloader.swf" flashvars="aid=5826766&page=1" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash">
