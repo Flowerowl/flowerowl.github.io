@@ -788,7 +788,7 @@ def shapes_from_gpx(filename):
 def shapes_from_file(filename):
     logging.info('reading points from %s' % filename)
     count = 0
-    with open(filename, 'rU') as f:
+    with open(filename, 'r') as f:
         for line in f:
             line = line.strip()
             if len(line) > 0:  # ignore blank lines
